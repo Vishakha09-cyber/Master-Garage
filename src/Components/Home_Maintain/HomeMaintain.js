@@ -38,7 +38,7 @@ function Sectiontwo(){
                 <Row>
                     <Col sm={4}>
                         <div>
-                             <i class="fas fa-hand-point-up"></i>
+                            <i></i>
                             <span>Compare & Choose</span>
                             <p>Users can compare and choose the garage on basis of different parameters like distance price & rating</p>
                         </div>
