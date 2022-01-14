@@ -7,7 +7,7 @@ import './homemaintain.css';
 function HomeMaintenace(){
     return <>
     <div className="section1">
-        <Container >
+        <Container fluid>
             <Row className="row1">
                 <Col sm={6}>
                     <Row>
