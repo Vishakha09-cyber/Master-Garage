@@ -56,7 +56,7 @@ function SubHomeMain(){
                         <Row className="row-box">
                             <Col sm={6}><img src="#"></img></Col>
                             <Col sm={6}><span>Periodic Service</span></Col>
-                            
+
                         </Row>
                     </li>
 
