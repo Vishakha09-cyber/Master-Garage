@@ -1,0 +1,27 @@
+.nav-box{
+    background-color: #fff;
+    box-shadow: 0 0 3px 0;
+    height:60px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+}
+ul {
+    display: flex !important;
+    margin:0;
+}li {
+    list-style-type: none;
+    padding: 20px 24px ;
+}
+span{
+    padding: 10px;
+}
+.logo-name{
+    display: flex !important;
+    margin:0; 
+    padding-left:0;
+}
+.logo-name li {
+    list-style-type: none;
+    padding: 20px 0px 0px 0px ;
+}
