@@ -1,7 +1,7 @@
 import React from 'react';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
-import img1 from '../../Images/img1.jpg';
-import rowicon1 from '../../Images/rowicon1.jpg';
+//import img1 from '../../Images/img1.jpg';
+//import rowicon1 from '../../Images/rowicon1.jpg';
 import './homemaintain.css';
 
 function HomeMaintenace(){
@@ -18,7 +18,7 @@ function HomeMaintenace(){
                         </Col>
                     </Row>
                 </Col>
-                <Col sm={6}><img src={img1} ></img></Col>
+                <Col sm={6}><img src="" ></img></Col>
             </Row>
             <Row>
                 <SubHomeMain></SubHomeMain>
@@ -35,26 +35,26 @@ function SubHomeMain(){
                 <ul className="row2">
                     <li>
                         <Row className="row-box">
-                            <Col sm={6}><img src={rowicon1}style={{width:'100px',height:'100px',paddingLeft:'20px'}}></img></Col>
+                            <Col sm={6}><img src="#" style={{width:'100px',height:'100px',paddingLeft:'20px'}}></img></Col>
                             <Col sm={6}><span style={{textAlign:'center'}}>Periodic 
                             Service</span></Col>
                         </Row>
                     </li>
                     <li>
                         <Row className="row-box">
-                            <Col sm={6}><img src={rowicon1}></img></Col>
+                            <Col sm={6}><img src="#"></img></Col>
                             <Col sm={6}><span>Periodic Service</span></Col>
                         </Row>
                     </li>
                     <li>
                         <Row className="row-box">
-                            <Col sm={6}><img src={rowicon1}></img></Col>
+                            <Col sm={6}><img src=""></img></Col>
                             <Col sm={6}><span>Periodic Service</span></Col>
                         </Row>
                     </li>
                     <li>
                         <Row className="row-box">
-                            <Col sm={6}><img src={rowicon1}></img></Col>
+                            <Col sm={6}><img src="#"></img></Col>
                             <Col sm={6}><span>Periodic Service</span></Col>
                         </Row>
                     </li>
