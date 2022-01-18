@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 * {
     font-family: "Poppins";
@@ -50,3 +51,32 @@
 .icons ul li a img {
     box-shadow: 5px 10px #fff;
 }
+=======
+.nav-box{
+    background-color: #fff;
+    box-shadow: 0 0 5px 0;
+    height:60px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+}
+ul {
+    display: flex !important;
+    margin:0;
+}li {
+    list-style-type: none;
+    padding: 20px 24px ;
+}
+span{
+    padding: 10px;
+}
+.logo-name{
+    display: flex !important;
+    margin:0; 
+    padding-left:0;
+}
+.logo-name li {
+    list-style-type: none;
+    padding: 20px 0px 0px 0px ;
+}
+>>>>>>> 283bfd05ba948b7443eb2b8ac7e3d6c0fa411acb
