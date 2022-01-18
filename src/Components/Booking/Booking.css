@@ -1,0 +1,160 @@
+.qrcode1 i {
+    font-size: 120px;
+}
+.booking1 {
+    font-size: 0.9rem;
+    border: rgba(149, 157, 165, 0.2);
+    border-radius: 40px !important;
+}
+.innercard1 {
+    padding: 10px;
+    display: flex;
+}
+.pickup {
+    margin-right: 20px;
+}
+.downloadqr1 {
+    margin-left: 5px;
+}
+
+.btnjobcard1 {
+    border-radius: 20px;
+    background-color: #2650d8;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+}
+.cardText1 {
+    display: flex;
+    justify-content: center;
+    color: #999999;
+    margin: 20px;
+}
+.schedulTime1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.schedulTime1 h5 {
+    color: #00155a;
+}
+.schedulTime1 p {
+    color: #5d6186;
+}
+.payfooter1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2650d8;
+    color: #fff;
+}
+.payAmount1 {
+    display: flex;
+    line-height: 5px;
+}
+.cardSize1 {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.total1 {
+    margin-top: 20px;
+}
+.totalbtn1 {
+    border-radius: 10px;
+    color: #00155a !important;
+    margin-top: 15px;
+    background-color: #fff !important;
+    border: none;
+}
+.caricon1 i {
+    font-size: 30px;
+    color: black;
+    background-color: #f4f8ff;
+    border-radius: 50%;
+    padding: 10px 10px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.call1 i {
+    font-size: 30px;
+    color: #fff;
+    background-color: #53bd8c;
+    border-radius: 50%;
+    padding: 10px 10px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.carDetail1 {
+    display: flex;
+}
+.custominfo1 {
+    line-height: 5px;
+    font-size: 0.8rem;
+}
+.carDetail1 h5 {
+    color: #00155a;
+}
+.carbody1 {
+    display: flex;
+    justify-content: space-between;
+}
+.carbodes1 ul li {
+    margin-bottom: 5px;
+}
+.CarPickDetail {
+    display: flex;
+    margin-left: 50px;
+}
+.CarPickDetail p {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.CarPickDetail p:hover {
+    color: #2650d8;
+}
+.thanking {
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.mahindrachoice {
+    color: #00155a;
+    font-size: bolder;
+}
+textarea {
+    width: 100%;
+    height: 130px;
+    padding: 12px 20px;
+
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.submitfeed {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.notNowbtn {
+    border-radius: 15px;
+    margin-right: 40px;
+    background-color: #4ee59d;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Submitbtn {
+    border-radius: 15px;
+    background-color: #4ee59d;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.endthank {
+    margin-top: 30px;
+    font-weight: bolder;
+}

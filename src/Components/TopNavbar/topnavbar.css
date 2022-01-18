@@ -1,27 +1,52 @@
-.nav-box{
-    background-color: #fff;
-    box-shadow: 0 0 3px 0;
-    height:60px;
-    padding-left: 10px;
-    padding-right: 10px;
- 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+    font-family: "Poppins";
 }
-ul {
-    display: flex !important;
-    margin:0;
-}li {
-    list-style-type: none;
-    padding: 20px 24px ;
+.App {
+    border-bottom: rgb(224, 202, 202);
 }
-span{
-    padding: 10px;
+.logo {
+    display: flex;
 }
-.logo-name{
-    display: flex !important;
-    margin:0; 
-    padding-left:0;
+.logo h5 {
+    margin-top: 10px;
+    margin-left: 10px;
 }
-.logo-name li {
-    list-style-type: none;
-    padding: 20px 0px 0px 0px ;
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: black;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+}
+.menu{
+    padding-top: 20px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu ul li {
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.icons {
+    background-color: #2650d8;
+    border-radius: 50%;
+    color: #fff !important;
+    padding: 5px 10px 5px;
+    width: 10px;
+}
+.icons ul li a img {
+    box-shadow: 5px 10px #fff;
 }

@@ -1,51 +1,56 @@
-import React from "react";
-// import Navbar from 'react-bootstrap/Navbar'
-import { BrowserRouter as Link } from 'react-router-dom';
-import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
-import './topnavbar.css';
-import homeimg1 from '../../Images/ImagesAll/drawable-xxxhdpi/homeimg1.png';
+import React from 'react';
+import './topnavbar.css'
+import {Container,Form,Button,Input,FormGroup,Label,Col,Row} from 'reactstrap';
+import avatar from "../../Images/avatar.png";
+import logo from "../../Images/garagelogo.PNG"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-
-function TopNavbar(){
- return<>
-     <div className="nav-box">
-             <Container>
-                 <Row style={{display:'flex'}}>
-                     <Col sm={4}>
-                         <Row style={{display:'flex'}}>
-                         <Col sm={6}><img style={{ height:'45px',padding: '10px'}}src={homeimg1}></img></Col>
-                         <Col sm={6}>
-                         <ul className="logo-name">
-                             <li><Link to="#"><span>Mira Bhayander</span></Link></li>
-                             <li><Link to="#"><span>Maharashtra, 401105</span></Link></li>
-                         </ul>
-                         </Col>       
-                         </Row>
-                     </Col>
-                     <Col sm={4}>
-                         <Row>
-                             <ul>
-                                 <li><Link to='#'>Home</Link></li>
-                                 <li><Link to='#'>About Us</Link></li>
-                                 <li><Link to='#'>Join Us</Link></li>
-                                 <li><Link to='#'>Services</Link></li>
-                                 <li><Link to='#'>FAQs</Link></li>
-                                 <li><Link to='#'>Contact Us</Link></li>
-                             </ul>
-                         </Row>
-                     </Col>
-                     <Col sm={4}>
-                         <Row>
-                             <ul>
-                                 <li></li>
-                                 <li></li>
-                                 <li></li>
-                             </ul>
-                         </Row>
-                     </Col>
-                 </Row>
-             </Container>
-     </div>
- </>
+const TopNavbar=()=> {
+  return (
+    <div className="App">
+      <div className="header">
+        <div className="navbar">
+           <div className="logo">
+               <img src={logo} alt="error" />
+               <h5>Master Garage</h5>
+           </div>
+           <div className="menu">
+            <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/aboutus">About Us</Link>
+          </li>
+          <li>
+            <Link to="/joinus">Join us</Link>
+          </li>
+          <li>
+            <Link to="#">Services</Link>
+          </li>
+          <li>
+            <Link to="#">FAQ's</Link>
+          </li>
+          <li>
+            <Link to="#" className='icons'><i class="fas fa-search"></i></Link>
+          </li>
+          <li>
+            <Link to="#" className="icons"><i class="fas fa-bell"></i></Link>
+          </li>
+          <li>
+            <Link to="#"><img src={avatar} style={{width:"30px"}}/><i class="fas fa-chevron-down"></i></Link>
+          </li>
+        </ul> 
+           </div>
+        </div>
+      </div>
+    </div>
+  );
 }
+
 export default TopNavbar;

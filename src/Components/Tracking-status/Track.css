@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+    font-family: "Poppins";
+}
+.trackcard {
+    padding: 20px;
+    border-radius: 40px !important;
+    font-size: 0.8rem;
+}
+.cardtitle {
+    color: #999999;
+}
+.cardText {
+    color: #5d6186;
+}
+.cardsubtitle {
+    color: #00155a;
+}
+.cardfirst {
+    display: flex;
+}
+.share {
+    color: #2650d8;
+    margin-right: 300px !important;
+    margin-top: 50px;
+}
+.MainHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999999;
+}
+.card-head {
+    display: flex;
+    padding-top: 20px;
+}
+.aboutUser {
+    margin-left: 30px;
+    line-height: 10px;
+}
+.social {
+    display: flex;
+    padding-top: 20px;
+}
+.socila1 {
+    font-size: 30px;
+    margin-left: 100px;
+    color: #fff;
+    background-color: #53bd8c;
+    border-radius: 50%;
+    padding: 5px 15px 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Foot {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+}
+
+.subFooter {
+    display: flex;
+}
+
+.subFooter Link {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.custam img {
+    width: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.customerServices {
+    display: flex;
+    margin-left: 10px;
+    line-height: 5px !important;
+}
+.reviewcheck {
+    margin-top: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #2650d8;
+}
+.footerreview h5 {
+    font-size: 15px;
+}
+.custam {
+    background-color: #f4f8ff;
+    border-radius: 50%;
+}
+.comment {
+    font-size: 30px;
+    color: #fff;
+    background-color: #53bd8c;
+    border-radius: 50%;
+    padding: 10px 10px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.comment i {
+    font-size: 25px;
+}
+.Needhelp {
+    line-height: 6px;
+}
+.Needhelp h5 {
+    font-size: 15px;
+}
+.carbody {
+    display: flex;
+    justify-content: space-evenly;
+}
+.displayprop {
+    display: flex;
+    padding-right: 20px;
+}
+ul {
+    list-style: none;
+}
+
+ul .listitem::before {
+    content: "\2022";
+    color: #f0f3ff;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.Qrcode i {
+    font-size: 220px;
+    margin-left:20px;
+}
+.booking {
+    height: 500px;
+    border: rgba(149, 157, 165, 0.2);
+    border-radius: 40px !important;
+}
+.qrflex {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.qrheader {
+    display: flex;
+    justify-content: center;
+}
+.qrheader h3 {
+    font-weight: bolder;
+    color: #2650d8;
+    margin-left: 30px;
+}
+.innercard {
+    padding: 10px;
+}
+.groupbtn{
+    margin-right: 90px;
+    margin-top:39px;
+}
+.btncancle {
+    border-radius: 20px;
+    background-color: #ed7d2b;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    margin-right: 20px;
+}
+.btnReschedul {
+    border-radius: 20px;
+    background-color: #ed7d2b;
+    width: 130px;
+    border: none;
+    color: #fff;
+}
+.downloadqr {
+    margin-left: 40px;
+    text-decoration: none;
+}
+.payfooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2650d8;
+    color: #fff;
+    padding: 10px;
+}
+.payAmount {
+    display: flex;
+    line-height: 5px;
+}
+.cardSize {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.total {
+    margin-top: 20px;
+}
+.totalbtn {
+    border-radius: 10px;
+    color: #00155a !important;
+    margin-top: 15px;
+    background-color: #fff !important;
+    border: none;
+}
