@@ -1,5 +1,5 @@
 import React from 'react'
-import Track from '../Tracking-status/TrackingComp'
+import Track from '../Trackingstatus/TrackingComp'
 import { Container,Row,Col,Card,Button,ButtonGroup, CardBody, CardTitle, CardText,CardSubtitle, CardFooter } from 'reactstrap'
 import { Link } from 'react-router-dom';
 import './Booking.css';

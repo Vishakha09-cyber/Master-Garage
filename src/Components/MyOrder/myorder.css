@@ -1,0 +1,25 @@
+.ongoing h4{
+    display:flex;
+    justify-content:center;
+    font-weight:bolder;
+    color:#00155A;
+}
+.containerOrder{
+    display:flex;
+    justify-content:center;
+    padding:30px
+}
+.ordertbtn{
+    display:flex;
+    justify-content:center;
+}
+.btnongoing{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    background-color: #53BD8C;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+
+}

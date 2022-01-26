@@ -1,0 +1,278 @@
+.infobooking{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.bookingstatus{
+    display:flex;   
+}
+.bookingstatus i{
+    margin-top:5px;
+    margin-right:20px;
+    color:#2650d8;
+    font-size:20px;
+    font-weight:bolder;
+}
+.jobcarHeader {
+    background-color: #2650d8;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+.imgshow{
+    display: flex;
+    justify-content:space-between;
+}
+.jobcarContainer h5{
+    color: #00155A;
+}
+.jobcarContainer{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 0.9rem;
+     
+}
+.cardescripthead{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+.maindescriptioncar{
+    display: flex;
+    justify-content:space-evenly
+}
+.serives small{
+    color:#2650D8
+}
+.serives h6{
+    color:#00155A;
+}
+.serives p{
+    color:#00155A;
+    font-weight: bolder;
+}
+
+.fistCard span{
+    margin-left:10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.jobcarpayhead{
+    text-align: left;
+    border-bottom: 2px solid #D8D8D8;
+    padding:10px
+}
+.serives{
+    display: flex;
+    justify-content:space-between;
+    padding:10px;
+    border-bottom: 2px solid #D8D8D8;
+}
+.fancy-checkbox input[type="checkbox"] {
+    display: none;
+}
+.fistCard{
+    margin-top: 25px;
+    height:500px;
+    overflow:scroll;
+}
+.footjobcar{
+    background-color: #53BD8C;
+    font-weight: bolder;
+    color:#fff;
+    display: flex;
+    justify-content:center;
+    padding:20px;
+}
+.footjobcar:hover{
+    color: #fff !important;
+    font-weight: bolder;
+}
+.linkcolor{
+    color:white;
+}
+.fancy-checkbox span:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+    border-radius: 50%;
+    font-style: normal;
+    width: 1em;
+    height: 1em;
+    text-rendering: auto;
+    color: #53bd8c;
+    font-size: 15px;
+    margin-right: 0.9em;
+}
+
+.fancy-checkbox input[type="checkbox"]:checked ~ span:before {
+    content: "\f057";
+    color: #b92100;
+}
+input[name="wipro"] {
+	accent-color: #b92100;
+}
+input[name="fuel"] {
+	accent-color: #53BD8C;
+}
+.fancy-checkbox span{
+    font-size:0.7rem !important;
+    font-weight:normal !important;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+   
+}
+.serviceicon i{
+  font-size:25px;
+  margin-left: 10px;
+}
+.serviceicon .fa-check-circle{
+    color:#53BD8C;
+}
+.serviceicon .fa-times-circle{
+    color:#F45C3B;
+}
+.finalfootcolor h5{
+    color:#00155A;
+    font-weight: bolder;
+}
+.finalfootcolor p{
+    color:#5D6186
+}
+.comment1 {
+    font-size: 30px;
+    margin-right:20px;
+    color: #fff;
+    width: 40px;
+    background-color: #53bd8c;
+    border-radius: 50%;
+    padding: 0px 5px 0px 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.comment1 i {
+    font-size: 25px;
+   
+}
+.finalfoot{
+    display: flex;
+    justify-content:space-between;
+    font-size:0.8rem;
+ 
+}
+.borderfuel{
+    
+}
+.cardescription img{
+    width: 250px;
+    margin-top: 60px;
+    border-right: 2px solid #D8D8D8;
+
+}
+.finalfoot img{
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+}
+.firststep{
+    padding-right: 20px;
+}
+.firstfootfinal{
+    display: flex;
+    justify-content:space-evenly;
+}
+.footcarlist{
+    display: flex;
+    justify-content:space-between;
+}
+.viewcars{
+    line-height: 7px;
+    font-size:0.7rem;
+}
+.listcarimg1{
+
+}
+.footicon{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 30px;
+}
+.listcarimg ul{
+    display: flex;
+}
+.listcarimg ul li{
+    margin-right:20px;
+}
+.carlist1 li{
+  margin-bottom: 20px;
+}
+.carlist1{
+    height:600px !important;
+    overflow:scroll;
+}
+.carlist img{
+    width:40px
+}
+.carlist1 img{
+    width:300px;
+}
+.fullpage{
+    width:600px;
+}
+.accoutscan{
+    display: flex;
+    justify-content:space-between;
+}
+.qrscanheader{
+    display: flex;
+    margin-top: 30px;
+}
+.qrscanheader i{
+    margin-top:5px;
+    margin-right:10px;
+}
+.Qrdetaiils{
+    background-color:#2650D8;
+    color:white;
+    
+}
+.profilelogo{
+    display: flex;
+    justify-content:center;
+}
+.profilelogo img{
+   width:100px;
+   border-radius: 50%;
+   border:1px solid whitesmoke;
+}
+.qrprofiledes{
+    display: flex;
+    justify-content:center;
+    font-size: bolder;
+}
+.backgroundAccount{
+    display: flex;
+    justify-content: center;
+    
+}
+.backgroundAccount i{
+   font-size: 200px;
+   position: relative;
+   padding:20px;
+   border:30px solid #fff;
+   border-radius: 20px;
+}
+.moreQrinfo{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding: 20px;
+}
+.garagdes{
+    display: flex;
+    justify-content:center;
+}
+.garagdes img{
+    width:30px
+}

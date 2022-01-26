@@ -1,0 +1,106 @@
+.chatcontainer{
+    width:700px;
+    border-radius:30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color:#fff;
+    font-size:0.8rem;
+    border:none;
+    background-color:#F4F8FF;
+    
+}
+.ticketno{
+    display:flex;
+}
+.logorestric{
+    margin-right:5px
+}
+.chatheader{
+    background-color:#2650D8;
+    display:flex;
+    border-radius:30px 30px 0px 0px;
+}
+
+.chatimg img{
+    border-radius:50%;
+    width:120px;
+}
+.chatuser{
+    margin-top:30px;
+    margin-left:30px;
+}
+.contain1{
+    display:block;
+}
+.senddata{
+    display:flex;
+    float:right;
+}
+.sendheader{
+     width:300px;
+     color:#00155A;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     border:#D8D8D8;
+     margin:50px;
+     margin-left:250px;
+}
+.resivefeed{
+    width:300px;
+    margin-left:250px;
+    background-color:#fff;
+    height:100px;
+    color:#00155A;
+    padding:10px;
+}
+.resivefeed p{
+    
+}
+.firstHeaer{
+    background-color:#F4F8FF;
+     padding:15px 20px 0px 20px
+}
+.subissue{
+    background-color:#fff;
+    padding:15px;
+    margin-bottom:10px;
+}
+.subissue p{
+     border-bottom:2px solid #F4F8FF
+
+}
+.sendimg{
+    float:right;
+    margin-top:270px;
+    
+}
+.sendimg1 img{
+    width:40px;
+    margin-top:60px;
+}
+
+.sendimg img{
+    width:40px;
+    border-radius:50%;
+}
+.maprofile img{
+    width:40px
+}
+.recivemessage{
+    margin-top:400px;
+    display:flex;
+}
+.revivemessge{
+    background-color:#9AA2D0;
+    border-radius:50px;
+    padding:6px;
+}
+.sendmessage{
+    padding:10px;
+}
+.sendmessage img{
+  width:30px;
+  color:#fff;
+  background-color:#2650D8;
+  border-radius:50%;
+  
+}
+

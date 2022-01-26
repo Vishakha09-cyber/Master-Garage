@@ -1,8 +1,8 @@
 import React from 'react'
-import Track from '../Components/Tracking-status/TrackingComp'
+import Track from '../Components/Trackingstatus/TrackingComp'
 import { Container,Row,Col,Card,Button,ButtonGroup, CardFooter, CardBody, CardTitle } from 'reactstrap'
 import { Link } from 'react-router-dom';
-import '../Components/Tracking-status/Track.css';
+import '../Components/Trackingstatus/Track.css';
 import Qrcode from '../Images/Images/qrcode.png'
 const AboutUs = () => {
     return (

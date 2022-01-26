@@ -1,5 +1,5 @@
 import React from 'react'
-import Track from '../Tracking-status/TrackingComp'
+import Track from '../Trackingstatus/TrackingComp'
 import { Container,Row,Col,Card,Button,ButtonGroup, CardBody, CardTitle, CardText,CardSubtitle, CardFooter } from 'reactstrap'
 import { Link } from 'react-router-dom';
 import './Booking.css';
@@ -27,7 +27,15 @@ const Booking1 = () => {
                            </div>
                       </CardText>
                       <CardSubtitle className="carbodes1">
-                             <ul>
+                      <div className="trackcheck">
+                      <ul>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="2" height="272" viewBox="0 0 2 272">
+                          <path id="Path_31409" data-name="Path 31409" d="M0,0V272" transform="translate(1)" fill="none" stroke="#00155a" stroke-width="2" stroke-dasharray="5"/>
+                        </svg>
+
+
+                      </ul></div>
+                             <div><ul>
                                  <li> <div className="CarPickDetail"><Link><svg xmlns="http://www.w3.org/2000/svg" width="40.076" height="44.077" viewBox="0 0 51.076 44.077">
   <g id="Group_16499" data-name="Group 16499" transform="translate(0 0.143)">
     <path id="Path_12107" data-name="Path 12107" d="M1165.36,137.431a6.843,6.843,0,0,1-2.36,2.759c.243.013.379.026.515.026q3.425,0,6.851,0a3.03,3.03,0,0,1,.881.1v.6a3.059,3.059,0,0,1-.882.1q-22.6,0-45.2-.007c-.337,0-.849.139-.833-.416.015-.5.5-.368.828-.372.961-.011,1.922,0,3.022,0a7.087,7.087,0,0,1-2.374-2.786c-.027-.128-.048-.257-.083-.383a5.617,5.617,0,0,1-.091-2.846,5.571,5.571,0,0,1,11,1.431,13.815,13.815,0,0,1-.312,1.8c-.219.37-.424.747-.659,1.106a7.648,7.648,0,0,1-1.636,1.645h23.123l-.687-.573a7.138,7.138,0,0,1-1.615-2.178,7.509,7.509,0,0,1-.226-2.986,5.575,5.575,0,0,1,10.969,0A7.278,7.278,0,0,1,1165.36,137.431Zm-5.245-6.763a4.774,4.774,0,1,0,4.765,4.782A4.817,4.817,0,0,0,1160.115,130.668Zm-29.041,9.549a4.774,4.774,0,1,0-4.785-4.764A4.815,4.815,0,0,0,1131.074,140.216Z" transform="translate(-1120.321 -97.237)" fill="#2650d8" stroke="#2650d8" stroke-linecap="round" stroke-width="0.3"/>
@@ -131,7 +139,7 @@ const Booking1 = () => {
 </div>
 </li>
                              </ul>
-          
+          </div>
                       </CardSubtitle>
                       </CardBody>
                               <div className="payfooter1">
@@ -143,7 +151,7 @@ const Booking1 = () => {
                                    </div>
                                   </div>
                                   <div>
-                                     <Link to="/vehicalconfirm"> <Button className="totalbtn1">Pay now</Button></Link>
+                                     <Link to="/Vehicaldelivery"> <Button className="totalbtn1">Pay now</Button></Link>
                                   </div>
                               </div>
                       

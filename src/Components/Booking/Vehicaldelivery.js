@@ -1,5 +1,5 @@
 import React from 'react'
-import Track from '../Tracking-status/TrackingComp'
+import Track from '../Trackingstatus/TrackingComp'
 import { Container,Row,Col,Card,Button,ButtonGroup, CardBody, CardTitle, CardText,CardSubtitle, CardFooter } from 'reactstrap'
 import { Link } from 'react-router-dom';
 import './Booking.css';
@@ -19,6 +19,7 @@ const Vehicaldelivery = () => {
                                <h5>Vehicle Received</h5>
                                <p>Garage will soon diagnose your 
                                    vehicle and start the service</p>
+                                   <p><Link className="sumdownload">Download Summery</Link></p>
                                <button className="btnjobcard1">JOB CARD</button>
                            </div>
                            <div className="qrcode1">
@@ -39,12 +40,12 @@ const Vehicaldelivery = () => {
                             </svg>
                     </div>
                           <div>
-                          <textarea>Some text...</textarea>
+                          <textarea>Write a review? Type here.</textarea>
                           </div>
                       </CardSubtitle>
                       <ButtonGroup className='submitfeed'>
                           <button className="notNowbtn">Not Now</button>
-                          <button className="Submitbtn">Submit</button>
+                          <Link to="/modifyreview"><button className="Submitbtn">Submit</button></Link>
                       </ButtonGroup>
                       </CardBody>
                               <div className="payfooter1">

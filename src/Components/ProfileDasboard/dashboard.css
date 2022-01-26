@@ -1,0 +1,506 @@
+.containerprofile{
+    position: absolute;
+    font-size:0.8rem;
+    
+}
+.profile-dashboard{
+    font-size:0.8rem;
+}
+.allcontainer{
+    background-color:#F4F8FF;
+}
+.profilename{
+    display: flex;
+    justify-content: space-between;
+}
+.logoutprofile {
+    color:red;
+    text-decoration: none;
+}
+.experiencref{
+    display: flex;
+    justify-content: space-around;
+    color:#00155A;
+}
+.experiencref1{
+    display: flex;
+    justify-content: space-around;
+}
+.referprofile{
+    width:280px;
+}
+.referprofile small {
+    font-size:0.8rem;
+    
+}
+.referprofile1 {
+    color:#2650D8;
+    font-size:0.8rem;
+}
+.profileseconfcont{
+    background-color:#4EE59D;
+    border-radius: 20px;
+}
+.btncontact{
+    border-radius: 20px;
+    height: 50px;
+    width:150px;
+    color:#00155A;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.paymentcontmain h5{
+    color:#00155A;
+}
+.paymentfullcont{
+    font-size:0.8rem
+}
+.paymentcontmain{
+    background-color:#ECEFF5;
+}
+.profileaddres{
+    background-color:#ECEFF5;
+    border-radius: 20px;
+}
+.editdelete{
+    float:right;
+    display: flex;
+}
+.editdelete p{
+    margin-left: 5px;
+}
+.homeaddress{
+    display: flex;
+    line-height: 1;
+    padding-top: 30px !important;
+}
+.homeaddress i{
+    margin-right: 8px
+}
+.edit1{
+    color:#2650D8;
+}
+.delete1{
+    color:red;
+}
+.paymentscard{
+    display: flex;
+    justify-content: space-around;
+}
+.paymentscard img{
+    width: 50px;
+    margin-right: 20px;
+}
+.deletepaymentcard{
+    margin-left: 20px;
+    color:red;
+}
+.paymentgap{
+    margin-bottom: 30px;
+    line-height:0.4rem;
+}
+.paymentcont{
+    display: flex;
+    justify-content:space-around;
+}
+.subconatiner{
+    display:flex;
+    justify-content:space-between;
+}
+.qrborder{
+    margin-top: 30px;
+    
+}
+.qrborder i{
+    font-size:30px ;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius:10px;
+}
+.profileheader img{
+    width:140px;
+    align-items: center;
+}
+.peofileinfos ul li{
+    margin-bottom: 20px;
+}
+.peofileinfos ul li i{
+    margin-right: 20px;
+}
+.containerprofile1{
+    height:245px
+}
+.containerprofile img{
+    position: absolute;
+    top: 20px;
+    margin-left: 40px;
+    width: 240px;
+   
+}
+.firstContainer{
+    display:flex;
+    justify-content:space-around;
+    margin-left:200px;
+    margin-top: 10px;
+}
+.descriptionc{
+    display:flex;
+    justify-content:space-between;
+}
+.totalcoin h4{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+    opacity:11;
+    z-index: 7;
+    color:#00155A;
+    font-weight: bolder;;
+}
+.totalcoin small{
+    display:flex;
+    justify-content:center;
+}
+.tencoins{
+    display:flex;
+    justify-content:center;
+    color:#fff;
+    font-weight: bolder;
+}
+.someinfo{
+    margin-left: 130px;
+}
+.someinfo small{
+    margin-left:60px
+}
+.moreList1 {
+    font-weight: bolder;
+    color:#00155A;
+}
+
+.containlast{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+.containlast1{
+    display:flex;
+}
+.containlast1 i{
+    
+    margin-left:10px;
+    background-color:#fff;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    padding: 10px 10px 20px;
+    color:#FF9100
+}
+.containlast1 p{
+     margin-left: 190px;
+    margin-top:10px;
+    opacity:11;
+    z-index: 7;
+    font-weight: bolder;
+    color: #fff;
+}
+.mgNavigation{
+    border-bottom: 1px solid #999999;
+    display:flex;
+    justify-content: space-between;
+}
+.helpsuppotbtn{
+    width:100px;
+    border-radius: 10px;
+    background-color:#F45C3B;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+.mgNavigation ul{
+ list-style-type: none;
+ text-decoration: none;
+ display: flex;
+}
+.items13{
+    text-decoration: none !important;
+    color:#999999;
+    font-weight: bolder
+}
+.items13:hover{
+    color:#00155A
+}
+.mgNavigation ul li{
+   
+    margin-left: 50px;
+}
+.mgNavigation ul li:hover{
+    border-bottom: 1px solid #00155A;
+}
+.allvehicals{
+ display:flex;
+ justify-content:space-between;
+}
+.addmorevehical{
+    display:flex;
+    text-decoration: none;
+    color:#2650D8;
+}
+.addmorevehical i{
+    margin-right:10px;
+    margin-top:5px;
+}
+.vehicalcard1{
+ 
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.vehicalcard1:hover{
+    border-left: 20px solid #2650D8 !important;
+}
+.vehicalcard{
+     padding:20px;
+     
+}
+.vehicalheader{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.modelvehicalname{
+    display:flex;
+    justify-content:space-between;
+    line-height:0.2rem;
+}
+.modelvehicalname small{
+    color: #999999 !important;
+}
+.modelvehicalname p{
+    color:#00155A;
+    font-weight:bolder;
+}
+.vehiscan{
+    border:1px solid black;
+    width:30px;
+    height:39px;
+    padding:5px;
+    border-radius:7px;
+    font-size:20px;
+}
+.imgvehical{
+    width:80px;
+}
+.editlink{
+   
+    color:red;
+    font-weight:normal !important;
+}
+.rechareghead{
+    display:flex;
+    justify-content:space-between;
+}
+.rechareghead p{
+    margin-top:5px;
+    color:#53BD8C;
+    font-weight: bold;
+}
+.rechareghead img{
+   width:70px;
+   height:40px;
+}
+.backrecharge{
+    background-color:#F4F8FF
+}
+.recharegval{
+    display:flex;
+}
+.recharegval1{
+    display:flex;
+}
+.recharegval1 small{
+    color:#999999;
+    margin-right: 5px;
+}
+.recharegval1 p{
+    color:#2650D8;
+}
+.recharegval12 p{
+    margin-top: 20px;
+    color:#53BD8C
+}
+.recharegval p{
+    margin-top: 3px;
+    margin-left: 5px;
+    color:#2650D8;
+}
+.mainongoincont{
+    display:flex;
+    justify-content:space-between;
+}
+.ongoingheader1{
+    display:flex;
+    justify-content:space-evenly;
+}
+.bookdetails{
+    margin-right: 130px;
+}
+.ratehistorybook{
+    display:flex;
+}
+.ratehistorybook small{
+    margin-left: 10px;
+    color:#2650D8 !important;
+}
+.historybookcheck{
+    display:flex;
+
+}
+.historybookcheck i{
+    font-size:20px;
+    color:#53BD8C;
+    margin-left:10px;
+}
+.bookdetails small{
+    color:#999999
+}
+.bookdetails p{
+    color:#00155A
+}
+.bookdetails1 h3{
+    color:#2650D8;
+    font-weight:bold;
+}
+.bookdetails1 {
+    color:#999999;
+    margin-right: 70px;
+}
+.secondcontonbook{
+   display:flex;
+}
+.ongoingbookicon1{
+    color:#2650D8;
+ 
+}
+.ongoingbookicon i{
+  font-size: 20px;
+  margin-left: 40px;
+  background-color:#53BD8C;
+  font-size:25px;
+  color:#fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+.onbookfoot{
+    display:flex;
+    justify-content:center;
+}
+.ongoingbookbtn{
+    width:150px;
+    border:1px solid #2650D8;
+    border-radius: 20px;
+    padding: 5px;
+    color:#2650D8;
+}
+.notificationprofile{
+    display:flex;
+    justify-content: space-between;
+}
+.notificationprofile i{
+    font-size: 28px;
+    margin-right: 40px;
+    color:#00155A
+}
+.removeprofile h5{
+    color:#00155A
+}
+.referprofile p{
+    color:#999999;
+}
+.btnremove{
+    background-color: #F45C3B;
+    border-radius: 10px;
+    padding:10px;
+    border:none;
+    width:100px;
+    color:#fff;
+    font-weight: bold;
+}
+.mgworldgift{
+    display: flex;
+    justify-content: center;
+}
+.mgworldgift img{
+   
+    width:404.47px;
+    height:264.38px
+}
+.refersecondcont{
+    display:flex;
+    justify-content: space-around;
+}
+.refersecondcont small{
+    color:#D8D8D8
+}
+.refercodemggift{
+    display:flex;
+    background-color:#53BD8C;
+    padding:10px;
+    width:338.8px;
+    border-radius:20px;
+    height:52px
+}
+.refercodemggift p{
+  
+    letter-spacing:5px;
+    color:#00155A;
+    font-weight:bold;
+}
+.refercodemggift button{
+    border:none;
+    border-radius:20px;
+     margin-left:25px;
+     width: 88px;
+     height:33px;
+
+}
+.thirdcontref{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.thirdcontref small{
+    color:#D8D8D8
+}
+.listsocial{
+    display:flex;
+}
+.listsocial li{
+    font-size: 20px;
+    margin-right:20px;
+    color:#999999;
+}
+.visitMg{
+    display:flex;
+}
+.footmgworld{
+    background-color:#4EE59D;
+    font-weight:bold;
+    color:#fff;
+    border-radius: 20px;
+    padding:30px;
+    display:flex;
+    justify-content: space-around;
+}
+.footmgworld img{
+    width:200px;
+    margin-top: 20px;
+}
+.visitMg i{
+    font-size:30px;
+    color:#fff;
+    margin-left: 20px;
+}
+.mgworld{
+    margin-top: 70px;
+}

@@ -43,7 +43,7 @@ const TopNavbar=()=> {
             <Link to="#" className="icons"><i class="fas fa-bell"></i></Link>
           </li>
           <li>
-            <Link to="#"><img src={avatar} style={{width:"30px"}}/><i class="fas fa-chevron-down"></i></Link>
+            <Link to="/login"><img src={avatar} style={{width:"30px"}}/><i class="fas fa-chevron-down"></i></Link>
           </li>
         </ul> 
            </div>

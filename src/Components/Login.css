@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+    font-family: "Poppins";
+}
+.hello{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+    margin-bottom:30px;
+}
+.hello h3 {
+    color:#00155A;
+    font-weight:bolder;
+}
+.hello i{
+    color:#D8D8D8;
+    font-weight:bolder;
+    font-size:20px;
+}
+.profilename{
+    display:flex;
+    justify-content:space-between;
+    color:#00155A;
+    font-weight:bolder;
+}
+.profilename p{
+    color:#2650D8;
+}
+.hello h5 {
+    color:#00155A;
+}
+.card1{
+    width:500px;
+}
+.addmorecard{
+    font-size:29px;
+    margin-left:20px;
+}
+.addcardalign i{
+    margin-right:20px
+}
+.login{
+    background-color:#F4F8FF;
+   
+    font-size:0.8rem;
+    padding:20px;
+    
+}
+.headerProfile{
+    display:flex;
+    justify-content:space-evenly;
+    padding-bottom:10px;
+    border-bottom:1px solid #D8D8D8;
+
+}
+.headerProfile img{
+    width:80px
+}
+.logindetail{
+    margin-left:10px;
+    line-height:0.8rem
+}
+.logindetail1{
+    margin-left:10px;
+    line-height:0.8rem
+}
+.logindetail1 h3{
+    color:#00155A;
+    font-weight:bolder;
+}
+.logindetail1 p{
+    color:#2650D8;
+}
+.logindetail button{
+    margin-bottom:20px;
+}
+.Login {
+    border-radius: 15px;
+    background-color: #2650D8;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.supportprofile{
+    border-bottom:1px solid #D8D8D8;
+}
+.supportprofile li{
+    display:flex;
+    margin-left:40px;
+    margin-bottom:20px;
+ 
+
+}
+.supportprofile p{
+    margin-left:25px;
+    margin-top:5px;
+    text-align:left;
+    color:#00155A
+}
+.social_icon{
+   display:flex;
+   justify-content:center;
+   padding-right:30px;
+   padding-bottom:30px;
+   border-bottom:1px solid #D8D8D8;
+}
+
+.social_icon li{
+    margin-left:30px;
+   
+}
+.social_icon li i{
+    font-size:19px;
+    color:#5D6186;
+}
+.social_icons{
+    display:flex;
+    justify-content:center;
+    padding-right:30px;
+    padding-bottom:30px;
+    
+ }
+.social_icons li{
+    margin-left:30px;
+   
+}
+.social_icons li i{
+    font-size:19px;
+    color:#5D6186;
+}
+.tearmcondition{
+    display:flex;
+    justify-content:center;
+    margin:70px
+   
+}
+.tearmcondition  p{
+   
+    color:#D8D8D8;
+
+}
+.tearm{
+    text-decoration:none;
+}
+.tearm p{
+    margin-right:10px;
+}
+.tearms{
+    margin-right:10px;
+}
