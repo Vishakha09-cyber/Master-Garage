@@ -3,8 +3,9 @@ import React from 'react'
 import {Container,Form,Button,Input,FormGroup,Label,Col,Row} from 'reactstrap';
 import booking from '../Images/Images/drawable-hdpi/Group 31148.png';
 import AboutLogo from '../Images/aboutlogo.PNG'
-import logo from "../Images/garagelogo.PNG"
-import Item from './Item'
+import logo from "../Images/drawable-xxxhdpi/drawable-hdpi/Group 25829.png"
+import Item from './Item';
+import {Link} from 'react-router-dom'
 import './styles.css'
 const Home = () => {
     return (
@@ -202,8 +203,8 @@ insurance, find a suitable parking and to buy and sell used car at the best pric
                        </div>
                    </Col>
                    <Col lg={2} className="icon">
-                       <img src={logo} alt="error"/>
-                       <p>Known more<span><i class="far fa-arrow-right"></i></span></p>
+                      <p><img src={logo} alt="error"/></p>
+                       <Link className="knownmore">Known more<i class="fas fa-arrow-right"></i></Link>
                    </Col>
                </Row>
  

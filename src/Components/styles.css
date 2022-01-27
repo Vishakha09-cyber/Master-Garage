@@ -44,15 +44,18 @@
 .about {
     color: #fff;
     background-color: #0093E9;
-    background-image: linear-gradient(90deg, #0093E9 0%, #454a5f 100%);
+    background-image: url('../Images/drawable-xxxhdpi/drawable-hdpi/Rectangle 8446.png');
     
     height: 300px;
 }
 .aboutcont {
     padding: 50px;
 }
+.aboutcont p{
+    color: #fff;
+}
 .about p {
-    line-height: 3rem;
+    line-height: 2.5rem;
 }
 .cardItem{
     display:flex;
@@ -79,22 +82,23 @@
     font-size: 30px;
 }
 .icon{
-    padding-top:80px
+    padding-top:60px
 }
 .icon img{
     width:140px
 } 
-.icon p {
-    color: #fff;
-    font-size: large;
+.knownmore{
+    text-decoration: none;
+    color:#fff
 }
-.icon p i{
-    color:#2650d8;
+.knownmore:hover{
+    color:#fff;
 }
-.icon p span{
+.knownmore i{
     border-radius:50%;
     background-color:#fff;
-    padding: 2px 5px 2px;
-    width: 10px;
+    color:#2650d8;
+     padding:5px;
+     margin-left: 10px;
 
 }

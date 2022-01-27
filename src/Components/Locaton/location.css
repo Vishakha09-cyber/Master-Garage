@@ -1,0 +1,83 @@
+.locationcont{
+    width:600px !important;
+}
+.inputlocation{
+    width: 100%;
+    text-decoration: none;
+    height:50px;
+    background-color:#F8F9FA;
+    border:none;
+}
+.viewmorelocation{
+    text-decoration: none;
+}
+.inputlocation:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 2px #719ECE;
+}
+.form-control1 {
+    padding-left: 2.375rem;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 3.375rem;
+    margin-top:7px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.gpslocation{
+    background-color:#F4F8FF;
+    display:flex;
+    text-decoration: none;
+}
+.gpslocation i{
+    font-size:20px;
+    color:#2650D8
+}
+.getgps p{
+    color:#5D6186
+}
+.getgps small{
+    color:#999999
+}
+.getgps{
+    line-height:0.5;
+    margin-left: 10px;
+}
+
+.locationaddress{
+    background-color:#F4F8FF;
+}
+.locationaddress p{
+    color:#00155A
+}
+.gpslocation1{
+    display:flex;
+    border-bottom: 2px solid #999999;
+}
+.gpslocation1 i{
+    font-size:20px;
+    color:#00155A;
+    
+}
+.getgps1 p{
+    color:#00155A
+}
+.getgps1 small{
+    color:#999999
+}
+.getgps1{
+    line-height:1.5;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.locationaddress{
+  
+}

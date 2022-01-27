@@ -16,7 +16,7 @@ import ProfileDashboard from './Components/ProfileDasboard/ProfileDashboard'
 import MyGarage from './Components/ProfileDasboard/MyGarage';
 import MyOrder from './Components/ProfileDasboard/MyOrder';
 import Chats from './Components/ProfileDasboard/Chats';
-import Favourites from './Components/ProfileDasboard/Favourites';
+import Favourites from './Components/Favourites/Favourites';
 import MgCoin from './Components/ProfileDasboard/MgCoin';
 import HelpsSupport from './Components/ProfileDasboard/HelpsSupport';
 import Refer from './Components/ProfileDasboard/Refer';
@@ -29,7 +29,8 @@ import Jobcardprogress from './Components/JobCard/Jobcardprogress';
 import Nextcarprogress from './Components/JobCard/Nextcarprogress';
 import Accountscan from './Components/JobCard/Accountscan';
 import Routes1 from './Components/dashborad/Routes';
-
+import Location from './Components/Locaton/Location';
+import Location1 from './Components/Locaton/Location1';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Routes from './Components/dashborad/Routes';
 function App() {
@@ -68,6 +69,8 @@ function App() {
               <Route path="/Nextcarprogress" component={Nextcarprogress}/>
               <Route path="/Accountscan" component={Accountscan}/>
               <Route path="/Routes" component={Routes1}/>
+              <Route path="/location" component={Location}/>
+              <Route path="/location1" component={Location1}/>
     </Switch>
   </BrowserRouter>
 
