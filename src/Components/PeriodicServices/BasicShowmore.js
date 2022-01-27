@@ -21,7 +21,7 @@ import systemUpdate from '../../Images/systemUpdate.png';
 import check from '../../Images/check.png';
 import PS1 from '../../Images/ImagesAll/drawable-xxxhdpi/PS1.png';
 
-function PeriodicServiceAdded(){
+function BasicShowmore(){
     return <>
     <div className='container-fluid px-5'>
         <Row>
@@ -41,7 +41,7 @@ function PeriodicServiceAdded(){
             
     </>
 }
-export default PeriodicServiceAdded;
+export default BasicShowmore;
 
 function SideBar(){
     return<>
@@ -94,27 +94,79 @@ const SearchBar = () => (
 const SubMid = () =>(
     <>      
         <div>
-        <div className='SubmidBgBox p-2 my-2'>
+        <div className='BoxWithBox'>
+        <div className='Re_SubmidBgBox p-2'>
             <Row>
             <Col sm={9}>
                 <p className='poppins18'>Basic Service</p>
                 <p className='poppins15light py-2'><img src={systemUpdate} style={{width:'12px'}}></img> Every 5000 Kms or 3 months</p>
                 <p className='poppins15light'><img src={check} style={{width:'12px'}}></img> 9 Points Service</p>
                 <div style={{paddingTop:'25px'}}>
-                <Link to ="/BasicShowmore" style={{marginTop:'30px' ,fontSize:'12px'}}>Show more</Link>
+                <p className='OpenSans22'>&#8377;1459</p>
                 </div>
-               
-
             </Col>
             <Col sm={3}>
                 <div style={{width:'120px',height:'165px',marginLeft:'-20px'}}>
                 <img src={BasicService} style={{width:'127px',height:'120px'}}></img>
-                <button className='addcar'>ADD</button>
+                <Link to="/ServiceEstimates"><button className='addcar'>ADD</button></Link>
                 </div>
                 
             </Col>
             </Row>
         </div> 
+            <div className='py-2'>
+            <Row>
+                <Col sm={6}><p className='poppins15blue px-3'>What's Included</p></Col>
+                <Col sm={6} ><svg id="Icon_ionic-ios-close-circle-outline" className='mx-3' data-name="Icon ionic-ios-close-circle-outline" xmlns="http://www.w3.org/2000/svg" style={{float:'right'}} width="20" height="20" viewBox="0 0 20 20">
+  <path id="Path_27130" data-name="Path 27130" d="M18.938,17.98l-2.229-2.229,2.229-2.229a.676.676,0,1,0-.956-.956l-2.229,2.229-2.229-2.229a.676.676,0,0,0-.956.956L14.8,15.751,12.568,17.98a.654.654,0,0,0,0,.956.671.671,0,0,0,.956,0l2.229-2.229,2.229,2.229a.679.679,0,0,0,.956,0A.671.671,0,0,0,18.938,17.98Z" transform="translate(-5.754 -5.752)" fill="#f45c3b"/>
+  <path id="Path_27131" data-name="Path 27131" d="M13.375,4.721a8.65,8.65,0,1,1-6.12,2.534,8.6,8.6,0,0,1,6.12-2.534m0-1.346a10,10,0,1,0,10,10,10,10,0,0,0-10-10Z" transform="translate(-3.375 -3.375)" fill="#f45c3b"/>
+</svg>
+</Col>
+            </Row>
+            
+                <ul className='Showmore'>
+                    <li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Engine Oil Replacement</p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Oil Filter Replacement</p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Air Filter Cleaning</p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Coolant Top up </p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Wiper Fluid Replacement</p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Battery Water Top up</p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Heater/Spark plugs checking</p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Car Wash</p>
+</li>
+<li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{marginRight:'10px'}} viewBox="0 0 15 15">
+  <path id="Path_22613" data-name="Path 22613" d="M91.5,207a7.5,7.5,0,1,0,7.5,7.5A7.509,7.509,0,0,0,91.5,207Zm3.459,6.345-3.938,3.938a.235.235,0,0,1-.323,0l-2.642-2.642a.231.231,0,0,1,0-.324l.338-.337a.23.23,0,0,1,.323,0l2.06,2.059a.116.116,0,0,0,.165,0l3.356-3.356a.235.235,0,0,1,.323,0l.338.338a.229.229,0,0,1,0,.323Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>Interior Vacuuming  (Carpets & Seats)</p>
+</li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        
         <div className='SubmidBgBox px-2 my-2'>
         <Row >
         <Row className='p-0'><svg id="Group_26850" style={{width:'25%',marginLeft:'20px'}} data-name="Group 26850" xmlns="http://www.w3.org/2000/svg" width="113" height="15" viewBox="0 0 113 15">

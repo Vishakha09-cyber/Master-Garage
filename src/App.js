@@ -7,6 +7,8 @@ import HomeMain1 from './Components/Home_Maintain/HomeMain1';
 import Periodic from './Components/PeriodicServices/PeriodicService';
 import PeriodicADDvechicle from './Components/PeriodicServices/PeriodicADDvechicle';
 import PeriodicServiceAdded from './Components/PeriodicServices/PeriodicServicesAdded';
+import ServiceEstimates from './Components/PeriodicServices/ServiceEstimates';
+import BasicShowmore from './Components/PeriodicServices/BasicShowmore';
 import Tacking from './Components/AboutUs';
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
@@ -78,6 +80,8 @@ function App() {
               <Route path="/PeriodicService" component={Periodic}/>
               <Route path="/PeriodicADDvechicle" component={PeriodicADDvechicle}/>
               <Route path="/PeriodicServiceAdded" component={PeriodicServiceAdded}/>
+              <Route path ="/BasicShowmore" component={BasicShowmore}/>
+              <Route path="/ServiceEstimates" component={ServiceEstimates}/>
     </Switch>
   </BrowserRouter>
 
