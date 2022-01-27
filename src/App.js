@@ -2,6 +2,11 @@ import TopNavbar from './Components/TopNavbar/TopNavbar';
 import React from 'react';
 import { BrowserRouter, Route ,Switch} from 'react-router-dom'
 import Home from './Components/Home'
+import HomeMaintain from './Components/Home_Maintain/HomeMaintain';
+import HomeMain1 from './Components/Home_Maintain/HomeMain1';
+import Periodic from './Components/PeriodicServices/PeriodicService';
+import PeriodicADDvechicle from './Components/PeriodicServices/PeriodicADDvechicle';
+import PeriodicServiceAdded from './Components/PeriodicServices/PeriodicServicesAdded';
 import Tacking from './Components/AboutUs';
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
@@ -41,6 +46,8 @@ function App() {
          <TopNavbar></TopNavbar>
     <Switch>
       <Route path='/' exact component={Home} />
+      <Route path='/HomeMaintain' component={HomeMaintain}/>
+      <Route path='/HomeMain1' component={HomeMain1}/>
       <Route path= "/Tracking" component={Tacking}  />
       <Route path='/joinus' component={JoiinUs} />
       <Route path='/services' component={Services} />
@@ -68,6 +75,9 @@ function App() {
               <Route path="/Nextcarprogress" component={Nextcarprogress}/>
               <Route path="/Accountscan" component={Accountscan}/>
               <Route path="/Routes" component={Routes1}/>
+              <Route path="/PeriodicService" component={Periodic}/>
+              <Route path="/PeriodicADDvechicle" component={PeriodicADDvechicle}/>
+              <Route path="/PeriodicServiceAdded" component={PeriodicServiceAdded}/>
     </Switch>
   </BrowserRouter>
 
