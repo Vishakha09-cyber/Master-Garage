@@ -7,6 +7,8 @@ import HomeMain1 from './Components/Home_Maintain/HomeMain1';
 import Periodic from './Components/PeriodicServices/PeriodicService';
 import PeriodicADDvechicle from './Components/PeriodicServices/PeriodicADDvechicle';
 import PeriodicServiceAdded from './Components/PeriodicServices/PeriodicServicesAdded';
+import ServiceEstimates from './Components/PeriodicServices/ServiceEstimates';
+import BasicShowmore from './Components/PeriodicServices/BasicShowmore';
 import Tacking from './Components/AboutUs';
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
@@ -84,6 +86,7 @@ function App() {
               <Route path="/Nextcarprogress" component={Nextcarprogress}/>
               <Route path="/Accountscan" component={Accountscan}/>
               <Route path="/Routes" component={Routes1}/>
+<<<<<<< HEAD
               <Route path="/location" component={Location}/>
               <Route path="/notification" component={Notification}/>
               <Route path="/location1" component={Location1}/>
@@ -91,6 +94,13 @@ function App() {
               <Route path="/addvehical" component={Addvehical}/>
               <Route path="/addinstruction" component={Addinstruction}/>
               <Route path="/addchauffer" component={AddChauffer}/>
+=======
+              <Route path="/PeriodicService" component={Periodic}/>
+              <Route path="/PeriodicADDvechicle" component={PeriodicADDvechicle}/>
+              <Route path="/PeriodicServiceAdded" component={PeriodicServiceAdded}/>
+              <Route path ="/BasicShowmore" component={BasicShowmore}/>
+              <Route path="/ServiceEstimates" component={ServiceEstimates}/>
+>>>>>>> 8447b9779e65cd79a55e7ff36543cefdaeb7cda0
     </Switch>
   </BrowserRouter>
 

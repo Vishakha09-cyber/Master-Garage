@@ -93,13 +93,12 @@ i.fonticon.fas.fa-users.i4 {
 }
 .firsth1{
     text-align:center;
-    padding:20px;
 }
 
 .icon {
     width: 100%;
     text-align: center;
-    height: 80px;
+    height: 100px;
 }
 span.head1{
     color:#2650D8;
@@ -111,7 +110,6 @@ span.head1{
 }
 .rowbox{
     width:288px;
-    padding-top: 20px;
 }
 /* .flex-gap {
     display: inline-flex;
@@ -122,10 +120,11 @@ p.shortpara {
     padding-top: 10px;
     font-size: 18px;
     font-weight: 300;
+    margin:0px;
     color: #5D6186;
 }
 .iconrow.row {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 20px;
     background-color: #F4F8FF;
 }
