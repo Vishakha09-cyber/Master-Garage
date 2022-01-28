@@ -11,7 +11,7 @@ const Location = () => {
               <div className="mb-3">
                   <p><i class="fas fa-map-marker-alt"></i>Location</p>
                       <div>
-                      <span className="fa fa-search form-control-feedback"></span>
+                     <p className="form-control-feedback1"> <i className="fa fa-search"></i></p>
                        <input type="text" className="inputlocation form-control1" placeholder="Search"/>
                       </div>
               </div>

@@ -42,42 +42,15 @@
     text-decoration: none;
     color: black;
 }
-.icons {
+.icons1 {
     background-color: #2650d8;
     border-radius: 50%;
     color: #fff !important;
-    padding: 5px 10px 5px;
-    width: 10px;
+    padding: 10px
 }
-.icons ul li a img {
+.icons1 ul li a img {
     box-shadow: 5px 10px #fff;
 }
-/* =======
-.nav-box{
-    background-color: #fff;
-    box-shadow: 0 0 5px 0;
-    height:60px;
-    padding-left: 10px;
-    padding-right: 10px;
- 
+.icons12 i{
+    color:#2650d8;
 }
-ul {
-    display: flex !important;
-    margin:0;
-}li {
-    list-style-type: none;
-    padding: 20px 24px ;
-}
-span{
-    padding: 10px;
-}
-.logo-name{
-    display: flex !important;
-    margin:0; 
-    padding-left:0;
-}
-.logo-name li {
-    list-style-type: none;
-    padding: 20px 0px 0px 0px ;
-}
->>>>>>> 283bfd05ba948b7443eb2b8ac7e3d6c0fa411acb */

@@ -30,7 +30,8 @@
     color:#00155A;
 }
 .card1{
-    width:500px;
+    width:490px;
+    height:768px;
 }
 .addmorecard{
     font-size:29px;
@@ -85,6 +86,10 @@
 }
 .supportprofile{
     border-bottom:1px solid #D8D8D8;
+}
+.supportprofile img{
+    width:32px;
+    height:32px;
 }
 .supportprofile li{
     display:flex;

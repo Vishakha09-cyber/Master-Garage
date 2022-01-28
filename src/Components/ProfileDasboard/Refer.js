@@ -8,7 +8,7 @@ import './dashboard.css'
 const Refer = () => {
     return (
         <Container>
-          <Card>
+          <Card className="mb-4">
               <p className='mgworldgift'><img src={Gift} alt="error"/></p>
               <div className="refersecondcont">
                   <h3>Refer & Earn 500 MG Coins</h3>

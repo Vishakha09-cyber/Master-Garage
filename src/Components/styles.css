@@ -9,17 +9,22 @@
 }
 .left_items h2 {
     position: absolute;
-    width: 500px;
-    font-size: 50px;
+    width: 479px;
+    font-size: 46px;
     top: 260px;
+}
+.backgroundhome{
+    position: relative;
+    height: 320.93px;
 }
 
 .bookingillus {
     position: absolute;
     background-position: no-repeat;
-    top: 100px;
+     top:200;
+     margin-left: -600px;
     width: 700px;
-    height: 70%;
+    height: 320.93px;
 }
 .svgframe {
     overflow: hidden;
@@ -69,11 +74,18 @@
     margin-top:15px;
 }
 .item {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
     padding: 20px;
     background-color: #F4F8FF;
+    margin-right: 20px;
+    justify-content:center;
+}
+.item img{
+    width:83.05px;
+    height:83.55px;
+    margin-left:15px;
 }
 .item i {
     display: flex;
