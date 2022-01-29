@@ -1,46 +1,33 @@
 import React from 'react';
-import {Button,Row,Col, Container} from 'reactstrap';
+import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import '../PeriodicServices/periodic.css';
-import './LoginBook.css';
+import './Schedule.css';
+import './address.css';
 import FirstChoice from '../../Images/ImagesAll/drawable-xxxhdpi/FirstChoice.png';
 
-function LoginBook(){
+
+function PayBook(){
     return <>
     <div className='container-fluid'>
         <Row>
                 <div className='linkhead'>
-                    <Link to ="/BookGarageA"><i className='fa fa-arrow-left'></i></Link>
-                    <Link to="/BookGarageA">Confirm Booking</Link>
+                    <Link to ="/LoginBookGarage"><i className='fa fa-arrow-left'></i></Link>
+                    <Link to="/LoginBookGarage">Confirm Booking</Link>
                 </div>
             </Row>
-            <Row className=' py-2'> 
+            <Row> 
                 <Col sm={8} ><SubMid></SubMid></Col>
-                <Col sm={4}  ><SubLast></SubLast></Col>
-                
+                <Col sm={4}  ><SubLast></SubLast></Col>   
             </Row>
-
-    </div>
-            
+    </div>            
     </>
 }
-export default LoginBook;
-
-const SearchBar = () => (
-    <form action="/" method="get">
-        <input
-        className='phoneinput'
-            type="text"
-            value="+91 | Phone Number"
-            name="phonenumber" 
-        />
-        <Link to="/ScheduleBook"><button className='submitphone'>Submit</button></Link>
-    </form>
-);
+export default PayBook;
 const SubMid = () =>(
     <>
 
-           <Row className='px-2'>
+           <Row >
            <div style={{display:'flex'}} className='mb-2'>
            <svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" className='accounticon' viewBox="0 0 78 78">
   <defs>
@@ -62,10 +49,18 @@ const SubMid = () =>(
     </g>
   </g>
 </svg>
-                        <Row className='px-5 py-3 accountbg'>
-                <p className='bookinghead1'>Account</p>
-                <p className='bookingpara'>Please login to your existing account or sign-up to confirm booking</p>
-                    <SearchBar></SearchBar>
+                        <Row className='px-5 py-4 accountbg'>
+                        <Row>
+                            <Col sm={10}>
+                            <p className='bookinghead1'>Logged in</p>
+                          <Link to="#" style={{textDecoration:'none'}}><p className='poppins22M'>Sachin Tiwari &nbsp; &nbsp; &nbsp; &nbsp; +91 8853299293</p></Link>
+                          </Col>
+                          <Col sm={2} style={{textAlign:'right'}}><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35.001" viewBox="0 0 35 35.001">
+  <path id="Path_20808" data-name="Path 20808" d="M101.5,207A17.5,17.5,0,1,0,119,224.5,17.52,17.52,0,0,0,101.5,207Zm8.071,14.8-9.188,9.189a.549.549,0,0,1-.755,0l-6.164-6.164a.538.538,0,0,1,0-.756l.788-.788a.537.537,0,0,1,.755,0l4.805,4.805a.271.271,0,0,0,.386,0l7.83-7.83a.549.549,0,0,1,.755,0l.788.789a.533.533,0,0,1,0,.755Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>
+</Col>
+                
+                        </Row>
                     </Row>  
            </div>
            <div style={{display:'flex'}} className='my-2'>
@@ -88,14 +83,21 @@ const SubMid = () =>(
 </svg>
 
                         <Row className='px-5 py-3 accountbg'>
-                <p className='bookinghead1'>Service Schedule</p>
-                <p className='bookingpara'>Select your preferred Date & Time for the service</p>
+                        <Col sm={10}>
+                        <p className='bookinghead1'>Service Schedule</p>
+                        <Link to="#" style={{textDecoration:'none'}}><p className='poppins22M'>Date : January 21st 2021 &nbsp; &nbsp; Time : 5.00 pm - 6.00 pm</p></Link>
+                        </Col>
+                        <Col sm={2} style={{textAlign:'right'}}>
+                        <p style={{color:'red'}}>CHANGE</p><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35.001" viewBox="0 0 35 35.001">
+  <path id="Path_20808" data-name="Path 20808" d="M101.5,207A17.5,17.5,0,1,0,119,224.5,17.52,17.52,0,0,0,101.5,207Zm8.071,14.8-9.188,9.189a.549.549,0,0,1-.755,0l-6.164-6.164a.538.538,0,0,1,0-.756l.788-.788a.537.537,0,0,1,.755,0l4.805,4.805a.271.271,0,0,0,.386,0l7.83-7.83a.549.549,0,0,1,.755,0l.788.789a.533.533,0,0,1,0,.755Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>
+                        </Col>
+                        
+                
                     </Row>  
            </div>
-           
-           
-<div style={{display:'flex'}} className='my-2'>
-<svg xmlns="http://www.w3.org/2000/svg"  className='accounticon' width="78" height="78" viewBox="0 0 78 78">
+           <div style={{display:'flex'}} className='my-2'>
+           <svg xmlns="http://www.w3.org/2000/svg"  className='accounticon' width="78" height="78" viewBox="0 0 78 78">
   <defs>
     <filter id="Ellipse_2114" x="0" y="0" width="78" height="78" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
@@ -114,10 +116,21 @@ const SubMid = () =>(
 </svg>
 
                         <Row className='px-5 py-3 accountbg'>
-                <p className='bookinghead1'>Pick up & Drop Address</p>
-                <p className='bookingpara'>Add or choose your preferred address for pick up & drop</p>
+                        <Col sm={10}>
+                        <p className='bookinghead1'>Pick up & Drop Address</p>
+                        <Link to="#" style={{textDecoration:'none'}}><p className='poppins22M'>5, Vasant Kunj, Shanti Nagar, Near Andheri Metro Station,Andheri East, 
+Mumbai- 123 456, Maharashtra, India</p></Link>
+                        </Col>
+                        <Col sm={2} style={{textAlign:'right'}}>
+                        <p style={{color:'red'}}>CHANGE</p><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35.001" viewBox="0 0 35 35.001">
+  <path id="Path_20808" data-name="Path 20808" d="M101.5,207A17.5,17.5,0,1,0,119,224.5,17.52,17.52,0,0,0,101.5,207Zm8.071,14.8-9.188,9.189a.549.549,0,0,1-.755,0l-6.164-6.164a.538.538,0,0,1,0-.756l.788-.788a.537.537,0,0,1,.755,0l4.805,4.805a.271.271,0,0,0,.386,0l7.83-7.83a.549.549,0,0,1,.755,0l.788.789a.533.533,0,0,1,0,.755Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>
+                        </Col>
+                        
+                
                     </Row>  
            </div>
+           
            <div style={{display:'flex'}} className='my-2'>
            <svg xmlns="http://www.w3.org/2000/svg" className='accounticon' width="78" height="78" viewBox="0 0 78 78">
   <defs>
@@ -142,12 +155,44 @@ const SubMid = () =>(
 
 
                         <Row className='px-5 py-3 accountbg'>
-                <p className='bookinghead1'>Payments</p>
-                <p className='bookingpara'>Select your preferred payment method</p>
+                        <p className='bookinghead1'>Choose Payment Option</p>
+                        <Row >
+                <div class="row gx-3">
+                    <div class="col">
+                        <div class="p-2 schedulebox">
+                        <Row>
+                        <Col sm={1}></Col>
+                        <Col sm={11}><p className='poppins18RBlack'>Pay Now</p>
+                                <p className='poppins15r'>Pay now and earn exciting rewards &
+earn more MG coins on this pay booking.</p>
+                                        <button className='selectbtn'>Select</button>
+                        </Col>
+                        </Row>    
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-2 schedulebox">
+                        <Row>
+                        <Col sm={1}></Col>
+                        <Col sm={11}><p className='poppins18RBlack'>Pay after Service Completion</p>
+                                <p className='poppins15r'>By opting this method you agree to 
+pay after service completion and 
+before vehicle delivery</p>
+<button className='select'>Selected</button>   
+                        </Col>
+                        </Row> 
+                                        
+                        </div>
+                    </div>
+                </div>
+                
+                    
+                    </Row>
+                    <Row className='m-5'><button className='submitpayment'>PROCEED</button></Row>
+                
                     </Row>  
-           </div>
-  
-                     
+           </div>  
+                    
             </Row>
     </>
 );

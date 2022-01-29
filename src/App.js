@@ -11,6 +11,10 @@ import ServiceEstimates from './Components/PeriodicServices/ServiceEstimates';
 import BasicShowmore from './Components/PeriodicServices/BasicShowmore';
 import BookGarage from './Components/GarageBook/BookGarage';
 import LoginBook from './Components/GarageBook/LoginGarage';
+import Address from './Components/GarageBook/Adaddress';
+import PayBook from './Components/GarageBook/PaymentGarage';
+import PayNow from './Components/GarageBook/Paynow';
+import ScheduleBook from './Components/GarageBook/ScheduleBook';
 import Tacking from './Components/AboutUs';
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
@@ -37,8 +41,6 @@ import Notification from './Components/Locaton/Notification';
 import Search from './Components/Locaton/Search';
 import Addvehical from './Components/Locaton/Addvihical';
 import Addinstruction from './Components/Locaton/Addinstruction';
-
-
 //import JobCar from './Components/JobCard/JobCar';
 import Jobcardprogress from './Components/JobCard/Jobcardprogress';
 import Nextcarprogress from './Components/JobCard/Nextcarprogress';
@@ -102,6 +104,10 @@ function App() {
               <Route path="/ServiceEstimates" component={ServiceEstimates}/>
               <Route path="/BookGarage" component={BookGarage}/>
               <Route path="/LoginGarage" component={LoginBook}/>
+              <Route path="/Adaddress" component={Address}/>
+              <Route path="/PaymentGarage" component={PayBook}/>
+              <Route path="/Paynow" component={PayNow}/>
+              <Route path="/ScheduleBook" component={ScheduleBook}/>
     </Switch>
   </BrowserRouter>
 

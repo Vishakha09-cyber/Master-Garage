@@ -1,20 +1,22 @@
 import React from 'react';
-import {Button,Row,Col, Container} from 'reactstrap';
+import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import '../PeriodicServices/periodic.css';
-import './LoginBook.css';
+import './Schedule.css';
 import FirstChoice from '../../Images/ImagesAll/drawable-xxxhdpi/FirstChoice.png';
 
-function LoginBook(){
+
+function ScheduleBook(){
+  
     return <>
     <div className='container-fluid'>
         <Row>
                 <div className='linkhead'>
-                    <Link to ="/BookGarageA"><i className='fa fa-arrow-left'></i></Link>
-                    <Link to="/BookGarageA">Confirm Booking</Link>
+                    <Link to ="/LoginGarage"><i className='fa fa-arrow-left'></i></Link>
+                    <Link to="/LoginGarage">Confirm Booking</Link>
                 </div>
             </Row>
-            <Row className=' py-2'> 
+            <Row> 
                 <Col sm={8} ><SubMid></SubMid></Col>
                 <Col sm={4}  ><SubLast></SubLast></Col>
                 
@@ -24,22 +26,17 @@ function LoginBook(){
             
     </>
 }
-export default LoginBook;
+export default ScheduleBook;
 
 const SearchBar = () => (
     <form action="/" method="get">
-        <input
-        className='phoneinput'
-            type="text"
-            value="+91 | Phone Number"
-            name="phonenumber" 
-        />
-        <Link to="/ScheduleBook"><button className='submitphone'>Submit</button></Link>
+        <Link style={{textDecoration:'none'}} to="/Adaddress"><button className='submitphone'>Submit</button></Link>
     </form>
 );
-const SubMid = () =>(
-    <>
 
+const SubMid = () =>(
+    
+    <>
            <Row className='px-2'>
            <div style={{display:'flex'}} className='mb-2'>
            <svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" className='accounticon' viewBox="0 0 78 78">
@@ -62,10 +59,18 @@ const SubMid = () =>(
     </g>
   </g>
 </svg>
-                        <Row className='px-5 py-3 accountbg'>
-                <p className='bookinghead1'>Account</p>
-                <p className='bookingpara'>Please login to your existing account or sign-up to confirm booking</p>
-                    <SearchBar></SearchBar>
+                        <Row className='px-5 py-4 accountbg'>
+                        <Row>
+                            <Col sm={10}>
+                            <p className='bookinghead1'>Logged in</p>
+                          <Link to="#" style={{textDecoration:'none'}}><p className='poppins22M'>Sachin Tiwari &nbsp; &nbsp; &nbsp; &nbsp; +91 8853299293</p></Link>
+                          </Col>
+                          <Col sm={2} style={{textAlign:'right'}}><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35.001" viewBox="0 0 35 35.001">
+  <path id="Path_20808" data-name="Path 20808" d="M101.5,207A17.5,17.5,0,1,0,119,224.5,17.52,17.52,0,0,0,101.5,207Zm8.071,14.8-9.188,9.189a.549.549,0,0,1-.755,0l-6.164-6.164a.538.538,0,0,1,0-.756l.788-.788a.537.537,0,0,1,.755,0l4.805,4.805a.271.271,0,0,0,.386,0l7.83-7.83a.549.549,0,0,1,.755,0l.788.789a.533.533,0,0,1,0,.755Z" transform="translate(-84 -207)" fill="#53bd8c"/>
+</svg>
+</Col>
+                
+                        </Row>
                     </Row>  
            </div>
            <div style={{display:'flex'}} className='my-2'>
@@ -88,13 +93,72 @@ const SubMid = () =>(
 </svg>
 
                         <Row className='px-5 py-3 accountbg'>
-                <p className='bookinghead1'>Service Schedule</p>
+                        <Col sm={8}>
+                        <p className='bookinghead1'>Service Schedule</p>
                 <p className='bookingpara'>Select your preferred Date & Time for the service</p>
+                        </Col>
+                        <Col sm={4} style={{textAlign:'right'}}>
+                        <SearchBar></SearchBar>
+                        </Col>
+                        <Row className='m-3 schedulebox'>
+                        <Col sm={6}>
+                        </Col>
+                        <Col sm={6}><p className='bookingpara' style={{fontSize:'14px'}}>Click on any of the slots from below available windows</p> 
+                        <div class="row gx-2">
+    <div class="col">
+     <div class="p-2"><button className='timebtn disabled'>8:00 am</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn disabled'>9:00 am</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn disabled'>10:00 am</button></div>
+    </div>
+  </div>
+  <div class="row gx-2">
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>11:00 am</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>12:00 pm</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>01:00 pm</button></div>
+    </div>
+  </div>
+  <div class="row gx-2">
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>2:00 pm</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>3:00 pm</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>4:00 pm</button></div>
+    </div>
+  </div>
+  <div class="row gx-2">
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>5:00 pm</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>6:00 pm</button></div>
+    </div>
+    <div class="col">
+     <div class="p-2"><button className='timebtn'>7:00 pm</button></div>
+    </div>
+  </div>
+  </Col>
+                    </Row>
+                    <p className='bookingpara'>Note: Post placing the order, we will connect you with the garage to take care of your car problems & services</p>  
+                
                     </Row>  
            </div>
            
-           
-<div style={{display:'flex'}} className='my-2'>
+
+
+
+           <div style={{display:'flex'}} className='my-2'>
 <svg xmlns="http://www.w3.org/2000/svg"  className='accounticon' width="78" height="78" viewBox="0 0 78 78">
   <defs>
     <filter id="Ellipse_2114" x="0" y="0" width="78" height="78" filterUnits="userSpaceOnUse">
@@ -145,9 +209,7 @@ const SubMid = () =>(
                 <p className='bookinghead1'>Payments</p>
                 <p className='bookingpara'>Select your preferred payment method</p>
                     </Row>  
-           </div>
-  
-                     
+           </div> 
             </Row>
     </>
 );
@@ -327,5 +389,4 @@ Kandivali East 400 101</p>
 
     </>
 );
-
 
