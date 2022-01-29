@@ -6,7 +6,7 @@ import Audi17 from '../../Images/CarGarage/Manufacturer 200 X 200/Audi17.jpeg';
 import Venue from '../../Images/CarBrand/Models/2 Hyundai/Venue.jpeg';
 import Car from '../../Images/ImagesAll/drawable-xhdpi/Car.png';
 import Elitei20 from '../../Images/CarGarage/Models/2 Hyundai/Elitei20.jpeg';
-import qr from '../../Images/drawable-xxxhdpi/qr.png';
+import qr from '../../Images/drawable-xxxhdpi/drawable-xxxhdpi/qr.png';
 import Baleno from '../../Images/CarBrand/Models/1 Maruti Suzuki/WBG/Baleno.png';
 import BasicService from '../../Images/BasicService.png';
 import StandardService from '../../Images/StandardService.png';

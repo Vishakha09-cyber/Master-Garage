@@ -3,6 +3,7 @@ import './homemaintain.css';
 import { Link } from 'react-router-dom';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
+//import homeimg1 from '../../Images/ImagesAll/drawable-xxxhdpi/homeimg1.png';
 import homeimg1 from '../../Images/ImagesAll/drawable-xxxhdpi/homeimg1.png';
 import SettingSeaGreen from '../../Images/ImagesAll/drawable-xxxhdpi/SettingSeaGreen.png';
 import SmilePurpule from '../../Images/ImagesAll/drawable-xxxhdpi/SmilePurpule.png';

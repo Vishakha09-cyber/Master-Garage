@@ -2,12 +2,18 @@
     display: flex;
     list-style: none;
     text-decoration: none;
+    font-family: 'Poppins';
+}
+.supportprofile1 img{
+    width:32px;
+    height:32px;
 }
 .leftmenu li {
     margin-bottom: 20px;
 }
 .card12{
-    width:500px;
+    width:400px !important;
+    height:674px;
     position: fixed;
     height:700px;
 }
@@ -23,7 +29,7 @@
     display: flex;
 }
 .social_icons1 li{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .social_icons1 li i{
     font-size: 25px;

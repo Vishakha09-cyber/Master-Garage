@@ -6,18 +6,13 @@ import Profile from "../ProfileDasboard/ProfileDashboard";
 import MyGarage from "../ProfileDasboard/MyGarage";
 import MyOrder from "../ProfileDasboard/MyOrder";
 import Chats from '../ProfileDasboard/Chats';
-import Favourites from '../ProfileDasboard/Favourites';
+import Favourites from '../Favourites/Favourites';
 import MgCoin from '../ProfileDasboard/MgCoin';
 import HelpSupport from '../Helpsupport/HelpSuppot';
 import Refer from '../ProfileDasboard/Refer';
 import Sidebar from './Sidebar';
 
-
-
-
-
 function Routes() {
-
     return (
         <BrowserRouter> 
         <Container fluid className="mt-4"  style={{display:"flex"}}>

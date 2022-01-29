@@ -77,8 +77,28 @@ justify-content:space-between}
     justify-content: center;
     align-items: center;
   }
-    .borderchange{
-      
+    .bghead{
+        background-color:#2650D8;
+        display:flex;
+        justify-content:space-between;
+        width:1000px;
+        border-radius:30px 30px 0px 0px !important;
+        padding:20px;
+        color:#fff;
+    }
+    .bgheadpass{
+        display:flex;
+        justify-content:space-between;
+        color:#fff
+    }
+    .bgheadpass p{
+        margin-left: 670px;
+    }
+    .linkpass{
+        color:#fff;
+    }
+    .linkpass:hover{
+        color:#fff;
     }
     .bgchange{
         background-color:#2650D8;
@@ -95,7 +115,15 @@ justify-content:space-between}
         justify-content:space-between;
         width:1000px;
         padding:20px;
-        color:#fff;
+        color:#00155A;
+    }
+    .bgchange11{
+        background-color:#F4F8FF;
+        display:flex;
+        justify-content:space-between;
+        width:1000px;
+        padding:20px;
+        color:#999999;
     }
     .datasection{
         width:400px !important;

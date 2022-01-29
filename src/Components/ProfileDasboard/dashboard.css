@@ -1,10 +1,10 @@
 .containerprofile{
     position: absolute;
-    font-size:0.8rem;
+   
     
 }
 .profile-dashboard{
-    font-size:0.8rem;
+    
 }
 .allcontainer{
     background-color:#F4F8FF;
@@ -30,12 +30,16 @@
     width:280px;
 }
 .referprofile small {
-    font-size:0.8rem;
+ 
     
 }
 .referprofile1 {
     color:#2650D8;
-    font-size:0.8rem;
+   
+}
+.referprofile1 img{
+    width:156.03px;
+    height:19.12px;
 }
 .profileseconfcont{
     background-color:#4EE59D;
@@ -43,9 +47,10 @@
 }
 .btncontact{
     border-radius: 20px;
-    height: 50px;
-    width:150px;
+    height: 42px;
+    width:120px;
     color:#00155A;
+    background-color: #fff;
     border: 1px solid whitesmoke;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -53,7 +58,7 @@
     color:#00155A;
 }
 .paymentfullcont{
-    font-size:0.8rem
+   
 }
 .paymentcontmain{
     background-color:#ECEFF5;
@@ -71,7 +76,7 @@
 }
 .homeaddress{
     display: flex;
-    line-height: 1;
+   
     padding-top: 30px !important;
 }
 .homeaddress i{
@@ -88,7 +93,8 @@
     justify-content: space-around;
 }
 .paymentscard img{
-    width: 50px;
+    width: 40.52px;
+    height:20px;
     margin-right: 20px;
 }
 .deletepaymentcard{
@@ -97,7 +103,7 @@
 }
 .paymentgap{
     margin-bottom: 30px;
-    line-height:0.4rem;
+   
 }
 .paymentcont{
     display: flex;
@@ -318,6 +324,22 @@
 .recharegval1{
     display:flex;
 }
+.mgpak1 img{
+    width:67.39px;
+    height:14.99px;
+}
+.mgpak2 img{
+    width:14.5px;
+    height:14.99px;
+}
+.mgpak3 img{
+    width:16.62px;
+    height:19.7px;
+}
+.mgpak4 img{
+    width:15px;
+    height:15px;
+}
 .recharegval1 small{
     color:#999999;
     margin-right: 5px;
@@ -343,7 +365,7 @@
     justify-content:space-evenly;
 }
 .bookdetails{
-    margin-right: 130px;
+    margin-right: 80px;
 }
 .ratehistorybook{
     display:flex;
@@ -407,7 +429,7 @@
     justify-content: space-between;
 }
 .notificationprofile i{
-    font-size: 28px;
+    font-size: 20px;
     margin-right: 40px;
     color:#00155A
 }
@@ -503,4 +525,34 @@
 }
 .mgworld{
     margin-top: 70px;
+}
+.chatHead{
+    background-color:#ECEFF5;
+    display:flex;
+    justify-content:space-around;
+}
+.chatHead img{
+    width:100px;
+}
+.chatinfo{
+    line-height:0.5rem;
+    margin-right:200px;
+}
+.chatinfo h5,p{
+    color:#00155A; 
+}
+.chatHead1{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999999;
+}
+.chatHead small{
+    color:#999999;
+}
+.chatfoot i{
+   font-size:20px;
+   background-color:#4EE59D;
+   color:#fff; 
+   border-radius: 50%;
+   padding: 10px;
+   margin-left: 40px;
 }

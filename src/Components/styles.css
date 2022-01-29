@@ -9,17 +9,22 @@
 }
 .left_items h2 {
     position: absolute;
-    width: 500px;
-    font-size: 50px;
+    width: 479px;
+    font-size: 46px;
     top: 260px;
+}
+.backgroundhome{
+    position: relative;
+    height: 320.93px;
 }
 
 .bookingillus {
     position: absolute;
     background-position: no-repeat;
-    top: 100px;
+     top:200;
+     margin-left: -600px;
     width: 700px;
-    height: 70%;
+    height: 320.93px;
 }
 .svgframe {
     overflow: hidden;
@@ -44,15 +49,18 @@
 .about {
     color: #fff;
     background-color: #0093E9;
-    background-image: linear-gradient(90deg, #0093E9 0%, #454a5f 100%);
+    background-image: url('../Images/drawable-xxxhdpi/drawable-hdpi/Rectangle 8446.png');
     
     height: 300px;
 }
 .aboutcont {
     padding: 50px;
 }
+.aboutcont p{
+    color: #fff;
+}
 .about p {
-    line-height: 3rem;
+    line-height: 2.5rem;
 }
 .cardItem{
     display:flex;
@@ -66,11 +74,18 @@
     margin-top:15px;
 }
 .item {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
     padding: 20px;
     background-color: #F4F8FF;
+    margin-right: 20px;
+    justify-content:center;
+}
+.item img{
+    width:83.05px;
+    height:83.55px;
+    margin-left:15px;
 }
 .item i {
     display: flex;
@@ -79,22 +94,23 @@
     font-size: 30px;
 }
 .icon{
-    padding-top:80px
+    padding-top:60px
 }
 .icon img{
     width:140px
 } 
-.icon p {
-    color: #fff;
-    font-size: large;
+.knownmore{
+    text-decoration: none;
+    color:#fff
 }
-.icon p i{
-    color:#2650d8;
+.knownmore:hover{
+    color:#fff;
 }
-.icon p span{
+.knownmore i{
     border-radius:50%;
     background-color:#fff;
-    padding: 2px 5px 2px;
-    width: 10px;
+    color:#2650d8;
+     padding:5px;
+     margin-left: 10px;
 
 }

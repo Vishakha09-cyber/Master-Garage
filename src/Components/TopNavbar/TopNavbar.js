@@ -15,9 +15,9 @@ const TopNavbar=()=> {
     <div className="App">
       <div className="header">
         <div className="navbar">
-           <div className="logo">
-               <img src={logo} alt="error" />
-               <h5>Master Garage</h5>
+           <div className="">
+              <Link to="/location" className="logo"><img src={logo} alt="error" />
+               <h5>Master Garage</h5></Link>
            </div>
            <div className="menu">
             <ul>
@@ -37,13 +37,13 @@ const TopNavbar=()=> {
             <Link to="#">FAQ's</Link>
           </li>
           <li>
-            <Link to="#" className='icons'><i class="fas fa-search"></i></Link>
+          <Link to="#" className="icons1"><i class="fas fa-search-plus"></i></Link>
           </li>
           <li>
-            <Link to="#" className="icons"><i class="fas fa-bell"></i></Link>
+            <Link to="#" className="icons1"><i class="fas fa-bell"></i></Link>
           </li>
           <li>
-            <Link to="/login"><img src={avatar} style={{width:"30px"}}/><i class="fas fa-chevron-down"></i></Link>
+            <Link to="/login" className="icons12"><img src={avatar} style={{width:"30px"}} alt="error"/><i class="fas fa-chevron-down"></i></Link>
           </li>
         </ul> 
            </div>
