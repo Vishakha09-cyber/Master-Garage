@@ -1,0 +1,81 @@
+.loginbox1{
+    border-radius: 10px;
+    border:none;
+    background-color: #EAEAEA;
+}
+
+i.fas.fa-map-marker-alt.location{
+    position: absolute;
+  top: calc(58% - 35px);
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  background-color:#2650D8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #FFFFFF;
+
+}
+i.far.fa-credit-card{
+    position: absolute;
+    top: calc(75% - 35px);
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    background-color:#2650D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    
+}
+i.fas.fa-stopwatch.stop{
+    position: absolute;
+  top: calc(50% - 90px);
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  background-color:#2650D8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.bookinghead1{
+    font-size: 25px;
+    font-weight: bolder;
+    color:#00155A;
+    margin-bottom: 5px;
+}
+.bookingpara{
+    font-size: 16px;
+    color:grey;
+}
+input.phoneinput {
+    border: none;
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0 0 10px 0 #00000059;
+}
+button.submitphone {
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 5px;
+    background-color: #2650D8;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}

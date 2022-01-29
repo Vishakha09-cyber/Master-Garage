@@ -1,0 +1,132 @@
+.poppins22B{
+    color:#00155A;
+    font-size: 22px;
+    font-weight:bold;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins35B{
+    color:#00155A;
+    font-size: 35px;
+    font-weight:bold;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins8{
+    color:#999999;
+    font-size:8px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15L{
+    color:#5D6186;
+    font-size: 15px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15B{
+    color:#00155A;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15R{
+    color:#00155A;
+    font-size: 15px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.OpenSans22{
+    color:#2650D8;
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.OpenSans20B{
+    color:#00155A;
+    font-size: 20px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: right;
+}
+.poppins12light{
+    color:#5D6186;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins18M{
+    color:#00155A;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.scrollbox{
+    border-radius: 5px;
+    height: 480px;
+    width: 100%;
+}
+.scrollbox::-webkit-scrollbar {
+      display: none; 
+}
+.scrollbox{
+      -ms-overflow-style: none; /* for Internet Explorer, Edge */
+      scrollbar-width: none; /* for Firefox */
+      overflow-y: scroll; 
+}
+.addbg{
+        border: 1px solid #EAEAEA;
+        border-radius: 7px;
+        padding: 10px;
+        width:100%;
+        height:150px;
+    }
+.RecomendedButton{
+        float: left;
+        color: #fff;
+        width: 30px;
+        border:none;
+        background-color:#2650D8; 
+        margin-left: 20px;
+        height: 15px;
+        font-size: 10px;
+        padding: 0px;
+        border-radius: 2px;
+    }
+    .BookGarageRow1BG{
+        background-color:#F4F8FF;
+        border:1px solid #EAEAEA;
+        border-radius: 10px;
+        width:100%;
+        height:205px;
+
+    }
+    .SecondBoxBorder{
+        width: 100%;
+        border:1px solid #EAEAEA;
+        border-radius: 10px;
+    }
+    .offerbox{
+        border:3px dotted #EB2B2B;
+        border-radius:20px;
+    }
+    .timepasslist{
+        list-style-type: none;
+        display: block;
+    }
+    .timepassli {
+        padding: 12px;
+        font-size: 20px;
+    }
+    .footerbg{
+        background-color: #F4F8FF;
+        padding: 30px;
+        width:100%;
+        border-radius: 10px;
+        font-size:18px;
+        color:#5D6186;
+        font-family: 'Poppins', sans-serif;
+    }

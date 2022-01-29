@@ -2,9 +2,16 @@ import React from 'react';
 import './homemaintain.css';
 import { Link } from 'react-router-dom';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
+import {CardBody,Card,CardTitle,CardText,CardImg,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import homeimg1 from '../../Images/ImagesAll/drawable-xxxhdpi/homeimg1.png';
 import BlueBG from '../../Images/drawable-xxxhdpi/BlueBG.png';
+import BatteryCare from '../../Images/ImagesAll/drawable-xxxhdpi/BatteryCare.png';
+import ACService from '../../Images/ImagesAll/drawable-xxxhdpi/ACService.png';
+import AutoDetailing from '../../Images/ImagesAll/drawable-xxxhdpi/AutoDetailing.png';
+import DentingPainting from '../../Images/ImagesAll/drawable-xxxhdpi/DentingPainting.png';
+import GeneralService from '../../Images/ImagesAll/drawable-xxxhdpi/GeneralService.png';
+import WheelCare from '../../Images/ImagesAll/drawable-xxxhdpi/WheelCare.png';
+
 
 function HomeMain1(){
     return <>
@@ -27,6 +34,9 @@ function HomeMain1(){
             
     </div>
    <RowTwo></RowTwo>
+      <div className='px-5 '>
+          <RowThree></RowThree>
+      </div>
     </>
 
 }
@@ -39,6 +49,97 @@ const RowTwo = () => (
     </div>
   </>
 );
+const RowThree = () => (
+  <>
+    <div className='py-3'>
+      <Row>
+        <p className='poppins30B'>Trending Services</p>
+        <p className='Opens20R'>Expert Garages at Best Prices</p>
+      </Row>
+      <Row>
+        <div className='ServicesScroll'>
+        <ul className='TrendingServices'>
+          <li >
+          <Card className='ServicesOption' style={{backgroundColor:'#F8F9FA'}}>
+                <CardImg
+                  style={{width:'400px',height:'219px'}}  
+                src={BatteryCare}
+                    alt="Services " />
+                <CardBody  className='p-0 m-0 px-3'>
+                    <CardTitle  className='poppins25M'>Battery Care</CardTitle>
+                    <CardText className='poppins15L'>Battery Replacement at Best Price</CardText>
+                </CardBody>
+            </Card>
+          </li>
+          <li >
+          <Card className='ServicesOption' style={{backgroundColor:'#F8F9FA'}}>
+                <CardImg
+                  style={{width:'400px',height:'219px'}}  
+                src={AutoDetailing}
+                    alt="Services " />
+                <CardBody  className='p-0 m-0 px-3'>
+                    <CardTitle  className='poppins25M'>Auto Detailing</CardTitle>
+                    <CardText className='poppins15L'>Free Interior Car Spa</CardText>
+                </CardBody>
+            </Card>
+          </li>
+          <li >
+          <Card className='ServicesOption' style={{backgroundColor:'#F8F9FA'}}>
+                <CardImg
+                  style={{width:'400px',height:'219px'}}  
+                src={GeneralService}
+                    alt="Services " />
+                <CardBody  className='p-0 m-0 px-3'>
+                    <CardTitle  className='poppins25M'>General Service</CardTitle>
+                    <CardText className='poppins15L'>Get Ready for Your Next Road Trip</CardText>
+                </CardBody>
+            </Card>
+          </li>
+          
+          <li >
+          <Card className='ServicesOption' style={{backgroundColor:'#F8F9FA'}}>
+                <CardImg
+                  style={{width:'400px',height:'219px'}}  
+                src={DentingPainting}
+                    alt="Services " />
+                <CardBody  className='p-0 m-0 px-3'>
+                    <CardTitle  className='poppins25M'>Denting & Painting</CardTitle>
+                    <CardText className='poppins15L'>Best Quality Paints at Better Prices</CardText>
+                </CardBody>
+            </Card>
+          </li>
+          <li >
+          <Card className='ServicesOption' style={{backgroundColor:'#F8F9FA'}}>
+                <CardImg
+                  style={{width:'400px',height:'219px'}}  
+                src={WheelCare}
+                    alt="Services " />
+                <CardBody  className='p-0 m-0 px-3'>
+                    <CardTitle  className='poppins25M'>Wheel Care</CardTitle>
+                    <CardText className='poppins15L'>Tire alignments & More</CardText>
+                </CardBody>
+            </Card>
+          </li>
+          <li >
+          <Card className='ServicesOption' style={{backgroundColor:'#F8F9FA'}}>
+                <CardImg
+                  style={{width:'400px',height:'219px'}}  
+                src={ACService}
+                    alt="Services " />
+                <CardBody  className='p-0 m-0 px-3'>
+                    <CardTitle  className='poppins25M'>AC Service</CardTitle>
+                    <CardText className='poppins15L'>Be Prepared For Summers</CardText>
+                </CardBody>
+            </Card>
+          </li>
+        </ul>
+        </div>
+       
+      </Row>
+    </div>
+  </>
+);
+
 function SubHomeMain(){
     return<>
             <Row>

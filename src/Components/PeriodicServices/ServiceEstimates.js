@@ -354,7 +354,7 @@ const SubLast = () => (
                    
             </Col>
             <Col sm={9} className='px-3'>
-                    <p className='poppins18B'>Mahindra First FirstChoice</p>
+                    <Link to="/BookGarage" style={{textDecoration:'none'}}><p className='poppins18B'>Mahindra First FirstChoice</p></Link>
                     <Row><Col sm={6}>
 
                             <p className='poppins15R'> 13 min away</p>

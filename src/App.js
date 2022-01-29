@@ -9,6 +9,8 @@ import PeriodicADDvechicle from './Components/PeriodicServices/PeriodicADDvechic
 import PeriodicServiceAdded from './Components/PeriodicServices/PeriodicServicesAdded';
 import ServiceEstimates from './Components/PeriodicServices/ServiceEstimates';
 import BasicShowmore from './Components/PeriodicServices/BasicShowmore';
+import BookGarage from './Components/GarageBook/BookGarage';
+import LoginBook from './Components/GarageBook/LoginGarage';
 import Tacking from './Components/AboutUs';
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
@@ -82,6 +84,8 @@ function App() {
               <Route path="/PeriodicServiceAdded" component={PeriodicServiceAdded}/>
               <Route path ="/BasicShowmore" component={BasicShowmore}/>
               <Route path="/ServiceEstimates" component={ServiceEstimates}/>
+              <Route path="/BookGarage" component={BookGarage}/>
+              <Route path="/LoginGarage" component={LoginBook}/>
     </Switch>
   </BrowserRouter>
 
