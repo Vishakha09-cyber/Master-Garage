@@ -1,0 +1,27 @@
+/* *{
+    font-family: 'Poppins', sans-serif;
+} */
+
+
+.AwaitConfirmbox{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px 0 #00000040;
+    width:800px;
+    height:600px;
+}
+.verthr{
+    border-right: 1px solid #CBCBCB;
+    border-top-width: 1px;
+}
+i.far.fa-comment.avtarvthr {
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #53BD8C;
+    color: #fff;
+    box-shadow: 0px 0 10px 0 #bac1cd;
+}

@@ -154,10 +154,6 @@ const SubMid = () =>(
                 
                     </Row>  
            </div>
-           
-
-
-
            <div style={{display:'flex'}} className='my-2'>
 <svg xmlns="http://www.w3.org/2000/svg"  className='accounticon' width="78" height="78" viewBox="0 0 78 78">
   <defs>
