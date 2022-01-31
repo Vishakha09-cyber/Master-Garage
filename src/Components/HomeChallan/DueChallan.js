@@ -1,15 +1,11 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
-import './ActivateFastag2.css';
+import '../HomeFastag/ActivateFastag2.css';
 import './DueChallan.css';
-import Sucessful from './Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
-import Fastaglogo from './Images/drawable-xxxhdpi/Fastaglogo.png';
-import FastagCard from './Images/drawable-xxxhdpi/FastagCard.png';
-import Alcazar from './Images/CarGarage/Models/2 Hyundai/Alcazar.jpeg';
-import Baleno from './Images/CarGarage/Models/1 Maruti Suzuki/Baleno.jpeg';
-import Elitei20 from './Images/CarGarage/Models/2 Hyundai/Elitei20.jpeg';
+import Alcazar from '../../Images/CarGarage/Models/2 Hyundai/Alcazar.jpeg';
+import Baleno from '../../Images/CarGarage/Models/1 Maruti Suzuki/Baleno.jpeg';
+import Elitei20 from '../../Images/CarGarage/Models/2 Hyundai/Elitei20.jpeg';
 
 const DueChallan = () => (
     <>
@@ -167,7 +163,7 @@ const AllChallans = () => (
             </Row>
             <hr></hr>
             <Row className='py-3'>
-                <div className='ChallansBox px-4 py-3'>
+                <div className='ChallansBox px-4 py-2'>
                     <Row>
                         <Col sm={7}>
                             <Row>
@@ -212,7 +208,7 @@ const AllChallans = () => (
                 </div>
             </Row>
             <Row className='py-3'>
-                <div className='ChallansBox px-4 py-3'>
+                <div className='ChallansBox px-4 py-2'>
                     <Row>
                         <Col sm={7}>
                             <Row>

@@ -1,13 +1,12 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './RechargeFastag1.css';
-import Fastaglogo from './Images/drawable-xxxhdpi/Fastaglogo.png';
-import CarFastag from './Images/drawable-xxxhdpi/CarFastag.png';
-import CardPay from './Images/drawable-xxxhdpi/CardPay.png';
-import ReviewBeen from './Images/drawable-xxxhdpi/ReviewBeen.png';
-import Reviewavtar from './Images/drawable-xxxhdpi/Reviewavtar.png';
+import Fastaglogo from '../../Images/drawable-xxxhdpi/Fastaglogo.png';
+import CarFastag from '../../Images/drawable-xxxhdpi/CarFastag.png';
+import CardPay from '../../Images/drawable-xxxhdpi/CardPay.png';
+import ReviewBeen from '../../Images/drawable-xxxhdpi/ReviewBeen.png';
+import Reviewavtar from '../../Images/drawable-xxxhdpi/Reviewavtar.png';
 
 const RechargeFastag1 = () => (
     <>
@@ -150,7 +149,7 @@ const SecondBoxFastag = () => (
                     <Col sm={6} className='poppins20Open' style={{textAlign:'right',paddingRight:'20px'}}>&#8377;6459</Col>
                 </Row>
                 <p className='poppin18R my-3' style={{color:'#5D6186'}}>Discount</p>
-                <Row className='my-4'>
+                <Row className='my-3'>
                     <Col sm={6}><p className='poppins15R' style={{color:'#53BD8C'}}>PROMO - (HAPPY100)</p></Col>
                     <Col sm={6} className='poppins15' style={{textAlign:'right',paddingRight:'20px',color:'#53BD8C'}}><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"   className=" mx-2" viewBox="0 0 25 25">
   <path id="Path_22941" data-name="Path 22941" d="M96.5,207A12.5,12.5,0,1,0,109,219.5,12.514,12.514,0,0,0,96.5,207Zm5.765,10.574L95.7,224.138a.392.392,0,0,1-.539,0l-4.4-4.4a.384.384,0,0,1,0-.54l.563-.562a.384.384,0,0,1,.539,0l3.432,3.432a.194.194,0,0,0,.276,0l5.593-5.593a.392.392,0,0,1,.539,0l.563.564a.381.381,0,0,1,0,.539Z" transform="translate(-84 -207)" fill="#53bd8c"/>
@@ -159,7 +158,7 @@ const SecondBoxFastag = () => (
                     Applied
                     </Col>
                 </Row>
-                <Row className='my-4 mx-2 py-4  CouponsBG' >
+                <Row className='my-2 mx-2 py-4  CouponsBG' >
                 <Col sm={8}><p className='poppins18R' style={{color:'#ED7D2B'}}><svg xmlns="http://www.w3.org/2000/svg" width="24.771" height="25.703" className=" mx-2" viewBox="0 0 24.771 25.703">
   <path id="Path_27147" data-name="Path 27147" d="M787.836,646.6a.724.724,0,0,1,0-.636l.916-1.874a2.133,2.133,0,0,0-.92-2.832l-1.842-.978a.717.717,0,0,1-.375-.515l-.36-2.055a2.134,2.134,0,0,0-2.409-1.75l-2.064.292a.716.716,0,0,1-.605-.2l-1.5-1.45a2.133,2.133,0,0,0-2.977,0l-1.5,1.45a.714.714,0,0,1-.6.2l-2.066-.292a2.132,2.132,0,0,0-2.408,1.75l-.361,2.055a.715.715,0,0,1-.373.515l-1.843.979a2.132,2.132,0,0,0-.92,2.831l.916,1.874a.716.716,0,0,1,0,.636l-.916,1.874a2.134,2.134,0,0,0,.92,2.832l1.843.977a.718.718,0,0,1,.373.515l.361,2.055a2.128,2.128,0,0,0,2.1,1.771,2.17,2.17,0,0,0,.307-.021l2.066-.292a.718.718,0,0,1,.6.2l1.5,1.45a2.132,2.132,0,0,0,2.977,0l1.5-1.45a.721.721,0,0,1,.605-.2l2.064.292a2.134,2.134,0,0,0,2.409-1.75l.36-2.055a.72.72,0,0,1,.375-.515l1.842-.977a2.133,2.133,0,0,0,.92-2.832Zm-14.74-7.953a2.6,2.6,0,1,1-2.6,2.6A2.6,2.6,0,0,1,773.1,638.646Zm.7,13.649a.708.708,0,0,1-1,0c-.276-.276-1.536-1.4-1.26-1.672l9.963-9.886c.276-.276,1.371.932,1.647,1.208a.706.706,0,0,1,0,1Zm7.539,1.608a2.718,2.718,0,0,1-1.7-.636,2.494,2.494,0,0,1-.9-1.961,2.6,2.6,0,1,1,2.6,2.6Z" transform="translate(-764.803 -633.358)" fill="#ed7d2b" stroke="#ed7d2b" stroke-width="1"/>
 </svg>
@@ -168,13 +167,15 @@ Apply Coupons</p></Col>
                 </Row>
                 </div>
                 
-                <Row className='BottomBG my-5 px-2 py-3'>
-                        <Col sm={1} className='py-2 px-1'><img src={CardPay} style={{width:'30px',height:'30px'}}></img></Col>
-                        <Col sm={3} ><p style={{fontSize:'12px',fontWeight:'200',marginBottom:'0px'}}>Total Payment</p><p style={{fontSize:'20px',fontWeight:'bold',marginBottom:'0px'}}> ₹1000</p></Col>
-                        <Col sm={8}>
+                <div className='BottomBG mt-5 '>
+                <Row className='px-2 py-3'>
+                        <Col sm={1} className='py-2 px-2'><img src={CardPay} style={{width:'30px',height:'30px'}}></img></Col>
+                        <Col sm={4} className='px-3' ><p style={{fontSize:'12px',fontWeight:'200',marginBottom:'0px',color:'#fff'}}>Total Payment</p><p style={{fontSize:'20px',fontWeight:'bold',marginBottom:'0px',color:'#fff'}}> ₹1000</p></Col>
+                        <Col sm={7}>
                            <Link to="/RechargeSucessful" style={{textDecoration:'none'}}><button className='SelectPayment'>Select payment method</button></Link> 
                         </Col>
-                </Row>
+                        </Row>
+                </div>
                 
             </div>
             

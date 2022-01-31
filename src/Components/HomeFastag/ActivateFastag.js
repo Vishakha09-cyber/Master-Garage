@@ -1,13 +1,10 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
+import {Row,Col} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './ActivateFastag.css';
-import Sucessful from './Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
-import Fastaglogo from './Images/drawable-xxxhdpi/Fastaglogo.png';
-import FastagCard from './Images/drawable-xxxhdpi/FastagCard.png';
+import FastagCard from '../../Images/drawable-xxxhdpi/FastagCard.png';
 
-const ActivateFastag = () => (
+const ActFastag = () => (
     <>
         <div className='container-fluid px-5 py-2'>
                 <Row>
@@ -179,4 +176,4 @@ const ActivateBoxTwo = () =>(
         </div>
     </>
 );
-export default ActivateFastag;
+export default ActFastag;

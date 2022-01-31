@@ -15,6 +15,23 @@ import Address from './Components/GarageBook/Adaddress';
 import PayBook from './Components/GarageBook/PaymentGarage';
 import PayNow from './Components/GarageBook/Paynow';
 import ScheduleBook from './Components/GarageBook/ScheduleBook';
+import HomeChallan from './Components/HomeChallan/HomeChallan';
+import DueChallan from './Components/HomeChallan/DueChallan';
+import DueChallan1 from './Components/HomeChallan/DueChallan1';
+import HomeFasTag from './Components/HomeFastag/HomeFastag';
+import BuyFastag from './Components/HomeFastag/BuyFastag';
+import FastagSucessful from './Components/HomeFastag/FastagOrder';
+import RechargeFasTag from './Components/HomeFastag/RechargeFastag';
+import RechargeFastag1 from './Components/HomeFastag/RechargeFastag1';
+import RechargeSucessful from './Components/HomeFastag/RechargeSucessful';
+import ActFastag from './Components/HomeFastag/ActivateFastag';
+import ActivateFastag1 from './Components/HomeFastag/ActivateFastag1';
+import ActivateFastag2 from './Components/HomeFastag/ActivateFastag2';
+import ChaufferHome from './Components/HomeChauffer/ChaufferHome';
+import ChaufferBook from './Components/HomeChauffer/ChaufferBook';
+import ChaufferBooked from './Components/HomeChauffer/ChaufferBooked';
+import ChaufferAwait from './Components/HomeChauffer/ChaufferAwait';
+import ChaufferDeclined from './Components/HomeChauffer/ChaufferDeclined';
 import Tacking from './Components/AboutUs';
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
@@ -108,6 +125,26 @@ function App() {
               <Route path="/PaymentGarage" component={PayBook}/>
               <Route path="/Paynow" component={PayNow}/>
               <Route path="/ScheduleBook" component={ScheduleBook}/>
+              <Route path="/HomeChallan" component={HomeChallan}/>
+              <Route path="/DueChallan" component={DueChallan}/>
+              <Route path="/DueChallan1" component={DueChallan1}/>
+              <Route path="/HomeFasTag" component={HomeFasTag}/>
+              <Route path="/BuyFastag" component={BuyFastag}/>
+              <Route path="/FastagOrder" component={FastagSucessful}/>
+              <Route path="/RechargeFastag" component={RechargeFasTag}/>
+              <Route path="/RechargeFastag1" component={RechargeFastag1}/>
+              <Route path="/RechargeSucessful" component={RechargeSucessful}/>
+              <Route path="/ActivateFastag" component={ActFastag}/>
+              <Route path="/ActivateFastag1" component={ActivateFastag1}/>
+              <Route path="/ActivateFastag2" component={ActivateFastag2}/>
+              <Route path="/ChaufferBook" component={ChaufferBook}/>
+              <Route path="/ChaufferBooked" component={ChaufferBooked}/>
+              <Route path="/ChaufferAwait" component={ChaufferAwait}/>
+              <Route path="/ChaufferDeclined" component={ChaufferDeclined}/>
+              <Route path="/ChaufferHome" component={ChaufferHome}/>
+
+
+
     </Switch>
   </BrowserRouter>
 

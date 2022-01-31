@@ -1,14 +1,10 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './RechargeFastag1.css';
-import Sucessful from './Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
-import Fastaglogo from './Images/drawable-xxxhdpi/Fastaglogo.png';
-import CarFastag from './Images/drawable-xxxhdpi/CarFastag.png';
-import CardPay from './Images/drawable-xxxhdpi/CardPay.png';
-import ReviewBeen from './Images/drawable-xxxhdpi/ReviewBeen.png';
-import Reviewavtar from './Images/drawable-xxxhdpi/Reviewavtar.png';
+import Sucessful from '../../Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
+import Fastaglogo from '../../Images/drawable-xxxhdpi/Fastaglogo.png';
+import CarFastag from '../../Images/drawable-xxxhdpi/CarFastag.png';
 
 const RechargeSucessful = () => (
     <>
@@ -102,21 +98,21 @@ const FirstBoxFastag = ()=>(
 const SecondBoxFastag = () => (
     <>
             <div className='SecondBoxFastag my-3' style={{textAlign:'center'}}>
-                <div className='py-5'>
+                <div className='py-3'>
                 <Row className='py-3'>
                     <p className='poppins15Open'>Congratulations! You earned</p>
                     <p className='poppins20B'>5000 MG Coins</p>
                 </Row>
 
-                <Row className='py-2'>
+                <Row className='py-2 my-2'>
                     <img src={Sucessful} className='mx-3' style={{width:'350px',height:'220px'}}></img>
-                    <p className='poppins30B'>THANK YOU</p>
+                    <p className='poppins30B my-3'>THANK YOU</p>
                     <p  className='poppins15Open'>Transaction Successful</p>
                 </Row>
 
                </div>
                 
-                <Row className='BottomGreenBG py-3'>
+                <div className='BottomGreenBG py-3'>
                 <div className='px-3 py-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
   <path id="Path_22613" data-name="Path 22613" d="M99,207a15,15,0,1,0,0,30c3.664,0,9.857-3.7,9.857-3.7S114,226.607,114,222A15.017,15.017,0,0,0,99,207Zm6.918,12.689-7.876,7.876a.471.471,0,0,1-.647,0l-5.284-5.284a.461.461,0,0,1,0-.648l.675-.675a.461.461,0,0,1,.647,0l4.119,4.119a.232.232,0,0,0,.331,0l6.712-6.711a.471.471,0,0,1,.647,0l.675.676a.457.457,0,0,1,0,.647Z" transform="translate(-84 -207)" fill="#fff"/>
@@ -128,7 +124,7 @@ const SecondBoxFastag = () => (
                 </div>
                 
 
-                </Row>
+                </div>
                 
             </div>
             

@@ -125,14 +125,14 @@
 }
 
 .ActivateFastag1BG{
-    background-image: url("./Images/drawable-xxxhdpi/ActivateBG.png");
+    background-image: url("../../Images/drawable-xxxhdpi/ActivateBG.png");
     background-size: cover;
     width:100%;
     height:100vh;
 }
 .Re_yellowcard{
-    background-image: url('./Images/YellowShade.png');
-    width:678px;
+    background-image: url('../../Images/YellowShade.png');
+    width:678px!important;
     height:377px;
     border-radius:20px;
     background-size: cover;

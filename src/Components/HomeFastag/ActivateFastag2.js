@@ -1,14 +1,10 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
+import {Row,Col} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './ActivateFastag2.css';
-import Sucessful from './Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
-import Fastaglogo from './Images/drawable-xxxhdpi/Fastaglogo.png';
-import FastagCard from './Images/drawable-xxxhdpi/FastagCard.png';
-import Alcazar from './Images/CarGarage/Models/2 Hyundai/Alcazar.jpeg';
-import Baleno from './Images/CarGarage/Models/1 Maruti Suzuki/Baleno.jpeg';
-import Elitei20 from './Images/CarGarage/Models/2 Hyundai/Elitei20.jpeg';
+import Alcazar from '../../Images/CarGarage/Models/2 Hyundai/Alcazar.jpeg';
+import Baleno from '../../Images/CarGarage/Models/1 Maruti Suzuki/Baleno.jpeg';
+import Elitei20 from '../../Images/CarGarage/Models/2 Hyundai/Elitei20.jpeg';
 
 const ActivateFastag2 = () => (
     <>

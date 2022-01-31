@@ -1,10 +1,8 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './HomeFasTag.css';
-import HomeFastag from '../src/Images/ImagesAll/drawable-xxxhdpi/HomeFastag.png';
-import Fastaglogo from './Images/Fastaglogo.png';
+import Fastaglogo from '../../Images/Fastaglogo.png';
 
 const RechargeFasTag = () => (
     <>
@@ -79,8 +77,8 @@ const RechargeFasTag = () => (
 <Row>
     <Col sm={7} className='greybg'>
         <div>
-            <span className='poppins15 px-2'>Balance :</span>
-            <span className='poppins15bold px-2'>&#8377;459</span>
+            <span className='poppins15 px-1'>Balance :</span>
+            <span className='poppins15bold px-1'>&#8377;459</span>
             <span className='green12'><svg xmlns="http://www.w3.org/2000/svg" width="11.336" height="11.336" className='mx-2' viewBox="0 0 11.336 11.336">
   <path id="Path_30243" data-name="Path 30243" d="M5.668,0A5.668,5.668,0,1,1,0,5.668,5.668,5.668,0,0,1,5.668,0Z" fill="#53bd8c"/>
 </svg>
@@ -126,8 +124,8 @@ ACTIVE</span>
 <Row>
     <Col sm={7} className='greybg'>
         <div>
-            <span className='poppins15 px-2'>Balance :</span>
-            <span className='poppins15bold px-2'>&#8377;459</span>
+            <span className='poppins15 px-1'>Balance :</span>
+            <span className='poppins15bold px-1'>&#8377;459</span>
             <span className='green12'><svg xmlns="http://www.w3.org/2000/svg" width="11.336" height="11.336" className='mx-2' viewBox="0 0 11.336 11.336">
   <path id="Path_30243" data-name="Path 30243" d="M5.668,0A5.668,5.668,0,1,1,0,5.668,5.668,5.668,0,0,1,5.668,0Z" fill="#53bd8c"/>
 </svg>
@@ -173,8 +171,8 @@ ACTIVE</span>
 <Row>
     <Col sm={7} className='greybg'>
         <div>
-            <span className='poppins15 px-2'>Balance :</span>
-            <span className='poppins15bold px-2'>&#8377;459</span>
+            <span className='poppins15 px-1'>Balance :</span>
+            <span className='poppins15bold px-1'>&#8377;459</span>
             <span className='green12'><svg xmlns="http://www.w3.org/2000/svg" width="11.336" height="11.336" className='mx-2' viewBox="0 0 11.336 11.336">
   <path id="Path_30243" data-name="Path 30243" d="M5.668,0A5.668,5.668,0,1,1,0,5.668,5.668,5.668,0,0,1,5.668,0Z" fill="#53bd8c"/>
 </svg>
@@ -220,8 +218,8 @@ ACTIVE</span>
 <Row>
     <Col sm={7} className='greybg'>
         <div>
-            <span className='poppins15 px-2'>Balance :</span>
-            <span className='poppins15bold px-2'>&#8377;459</span>
+            <span className='poppins15 px-1'>Balance :</span>
+            <span className='poppins15bold px-1'>&#8377;459</span>
             <span className='green12'><svg xmlns="http://www.w3.org/2000/svg" width="11.336" height="11.336" className='mx-2' viewBox="0 0 11.336 11.336">
   <path id="Path_30243" data-name="Path 30243" d="M5.668,0A5.668,5.668,0,1,1,0,5.668,5.668,5.668,0,0,1,5.668,0Z" fill="#53bd8c"/>
 </svg>
@@ -267,8 +265,8 @@ ACTIVE</span>
 <Row>
     <Col sm={7} className='greybg'>
         <div>
-            <span className='poppins15 px-2'>Balance :</span>
-            <span className='poppins15bold px-2'>&#8377;459</span>
+            <span className='poppins15 px-1'>Balance :</span>
+            <span className='poppins15bold px-1'>&#8377;459</span>
             <span className='green12'><svg xmlns="http://www.w3.org/2000/svg" width="11.336" height="11.336" className='mx-2' viewBox="0 0 11.336 11.336">
   <path id="Path_30243" data-name="Path 30243" d="M5.668,0A5.668,5.668,0,1,1,0,5.668,5.668,5.668,0,0,1,5.668,0Z" fill="#53bd8c"/>
 </svg>
@@ -314,8 +312,8 @@ ACTIVE</span>
 <Row>
     <Col sm={7} className='greybg'>
         <div>
-            <span className='poppins15 px-2'>Balance :</span>
-            <span className='poppins15bold px-2'>&#8377;459</span>
+            <span className='poppins15 px-1'>Balance :</span>
+            <span className='poppins15bold px-1'>&#8377;459</span>
             <span className='green12'><svg xmlns="http://www.w3.org/2000/svg" width="11.336" height="11.336" className='mx-2' viewBox="0 0 11.336 11.336">
   <path id="Path_30243" data-name="Path 30243" d="M5.668,0A5.668,5.668,0,1,1,0,5.668,5.668,5.668,0,0,1,5.668,0Z" fill="#53bd8c"/>
 </svg>

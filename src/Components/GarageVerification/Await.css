@@ -2,7 +2,27 @@
     font-family: 'Poppins', sans-serif;
 } */
 
-
+.poppins25M{
+    color:#00155A;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins20M{
+    color:#00155A;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins22M{
+    color:#00155A;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+}
 .AwaitConfirmbox{
     /* margin-left: 10px;
     margin-right: 10px; */

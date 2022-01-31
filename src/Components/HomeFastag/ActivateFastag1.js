@@ -1,17 +1,14 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
+import {Row,Col} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './ActivateFastag.css';
-import Sucessful from './Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
-import Fastaglogo from './Images/drawable-xxxhdpi/Fastaglogo.png';
-import FastagCard from './Images/drawable-xxxhdpi/FastagCard.png';
+import Fastaglogo from '../../Images/drawable-xxxhdpi/Fastaglogo.png';
 
 const ActivateFastag1 = () => (
     <>
         <div className='container-fluid px-5 py-2 ActivateFastag1BG'>
                 <Row>
-                <Link to="/ActivateFastag2" style={{textDecoration:'none'}}><p className='poppins18R' ><svg xmlns="http://www.w3.org/2000/svg" width="20.667" height="20.143"  style={{marginRight:'10px'}} viewBox="0 0 20.667 20.143">
+                <Link to="/ActivateFastag" style={{textDecoration:'none'}}><p className='poppins18R' ><svg xmlns="http://www.w3.org/2000/svg" width="20.667" height="20.143"  style={{marginRight:'10px'}} viewBox="0 0 20.667 20.143">
   <g id="Rounded_Button" data-name="Rounded Button" transform="translate(20.667 20.143) rotate(180)">
     <path id="icon-arrow-left" d="M8.783,21.441l1.024,1.024a1.1,1.1,0,0,0,1.564,0L20.338,13.5a1.1,1.1,0,0,0,0-1.564L11.371,2.972a1.1,1.1,0,0,0-1.564,0L8.783,4A1.108,1.108,0,0,0,8.8,5.579l5.558,5.3H1.1A1.1,1.1,0,0,0,0,11.981v1.476A1.1,1.1,0,0,0,1.1,14.564H14.36L8.8,19.859A1.1,1.1,0,0,0,8.783,21.441Z" transform="translate(0.004 -2.647)" fill="#2650d8"/>
   </g>

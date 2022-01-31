@@ -52,15 +52,19 @@ const Home = () => {
                     <p>Car Wash</p>
                     </div>
                     <div  className='item'>
+                    <Link to="/HomeFastag" style={{textDecoration:'none'}}>
                     <img src={fastag} alt="error"/>
                     <p>Fastag</p>
+                    </Link>
                     </div>
                     <div className="item">
+                    <Link to="/HomeChallan" style={{textDecoration:'none'}}>
                     <img src={challan} alt="error"/>
                     <p>Challen</p>
+                    </Link>
                     </div>
                     <div className="item">
-                    <Link to="/addchauffer"><img src={chauffers} alt="error"/>
+                    <Link to="/ChaufferHome" style={{textDecoration:'none'}}><img src={chauffers} alt="error"/>
                     <p>Chauffers</p></Link>
                     </div>
                     <div className="item">

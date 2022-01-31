@@ -14,6 +14,10 @@
     border-collapse: separate;
     border-spacing: 15px;
     border-right: 1px solid #2650D8;
+    height:155px;
+}
+td{
+    text-align: left;
 }
 .poppins15RL{
     color:#999999;

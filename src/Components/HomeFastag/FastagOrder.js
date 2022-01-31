@@ -1,20 +1,15 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './RechargeFastag1.css';
-import Sucessful from './Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
-import Fastaglogo from './Images/drawable-xxxhdpi/Fastaglogo.png';
-import CarFastag from './Images/drawable-xxxhdpi/CarFastag.png';
-import CardPay from './Images/drawable-xxxhdpi/CardPay.png';
-import ReviewBeen from './Images/drawable-xxxhdpi/ReviewBeen.png';
-import Reviewavtar from './Images/drawable-xxxhdpi/Reviewavtar.png';
+import Sucessful from '../../Images/ImagesAll/drawable-xxxhdpi/Sucessful.png';
+import Fastaglogo from '../../Images/drawable-xxxhdpi/Fastaglogo.png';
 
 const FastagSucessful = () => (
     <>
         <div className='container-fluid px-5 py-2'>
                 <Row>
-                <Link to="/RechargeFastag1" style={{textDecoration:'none'}}><p className='poppins18R' ><svg xmlns="http://www.w3.org/2000/svg" width="20.667" height="20.143"  style={{marginRight:'10px'}} viewBox="0 0 20.667 20.143">
+                <Link to="/BuyFastag" style={{textDecoration:'none'}}><p className='poppins18R' ><svg xmlns="http://www.w3.org/2000/svg" width="20.667" height="20.143"  style={{marginRight:'10px'}} viewBox="0 0 20.667 20.143">
   <g id="Rounded_Button" data-name="Rounded Button" transform="translate(20.667 20.143) rotate(180)">
     <path id="icon-arrow-left" d="M8.783,21.441l1.024,1.024a1.1,1.1,0,0,0,1.564,0L20.338,13.5a1.1,1.1,0,0,0,0-1.564L11.371,2.972a1.1,1.1,0,0,0-1.564,0L8.783,4A1.108,1.108,0,0,0,8.8,5.579l5.558,5.3H1.1A1.1,1.1,0,0,0,0,11.981v1.476A1.1,1.1,0,0,0,1.1,14.564H14.36L8.8,19.859A1.1,1.1,0,0,0,8.783,21.441Z" transform="translate(0.004 -2.647)" fill="#2650d8"/>
   </g>
@@ -74,7 +69,7 @@ const FirstBoxFastag = ()=>(
                 <Col sm={6}>
                     <p className='poppins15SB'>Delivery Details</p>
                     <p className='poppins18M'> Sachin Tiwari</p>
-                    <p className='poppins15R'>A-1234, CGC Residency, Near Bisleri office,
+                    <p className='poppins15R' style={{color:'#5D6186'}}>A-1234, CGC Residency, Near Bisleri office,
 Andheri East, Mumbai - 400001   [Edit] </p>
                 </Col>
                 <Col sm={6} style={{textAlign:'right '}} >
@@ -107,7 +102,7 @@ const SecondBoxFastag = () => (
 
                </div>
                 
-                <Row className='BottomGreenBG py-3 my-3'>
+               <div className='BottomGreenBG py-3 '>
                 <div className='px-3 py-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
   <path id="Path_22613" data-name="Path 22613" d="M99,207a15,15,0,1,0,0,30c3.664,0,9.857-3.7,9.857-3.7S114,226.607,114,222A15.017,15.017,0,0,0,99,207Zm6.918,12.689-7.876,7.876a.471.471,0,0,1-.647,0l-5.284-5.284a.461.461,0,0,1,0-.648l.675-.675a.461.461,0,0,1,.647,0l4.119,4.119a.232.232,0,0,0,.331,0l6.712-6.711a.471.471,0,0,1,.647,0l.675.676a.457.457,0,0,1,0,.647Z" transform="translate(-84 -207)" fill="#fff"/>
@@ -119,7 +114,7 @@ const SecondBoxFastag = () => (
                 </div>
                 
 
-                </Row>
+                </div>  
                 
             </div>
             
