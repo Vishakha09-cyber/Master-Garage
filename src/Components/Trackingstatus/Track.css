@@ -182,7 +182,7 @@ ul .listitem::before {
 }
 .payfooter {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #2650d8;
     color: #fff;
     padding: 10px;
@@ -191,10 +191,10 @@ ul .listitem::before {
     display: flex;
     line-height: 5px;
 }
-.cardSize {
+.cardSize i {
     font-size: 30px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 160px !important;
 }
 .total {
     margin-top: 20px;

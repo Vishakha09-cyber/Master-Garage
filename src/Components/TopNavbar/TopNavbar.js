@@ -25,7 +25,7 @@ const TopNavbar=()=> {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/aboutus">About Us</Link>
+            <Link to="/Chat">About Us</Link>
           </li>
           <li>
             <Link to="/joinus">Join us</Link>

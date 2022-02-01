@@ -53,10 +53,10 @@
     display: flex;
     line-height: 5px;
 }
-.cardSize1 {
+.cardSize1 i{
     font-size: 30px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 115px !important;
 }
 .total1 {
     margin-top: 20px;
@@ -109,7 +109,7 @@
 .trackcheck ul{
     padding-left:50px
 }
-.carbody1 ul {
+.carbody1  {
     display: flex;
     justify-content: space-between;
 }
