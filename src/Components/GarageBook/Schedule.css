@@ -1,0 +1,71 @@
+.schedulebox{
+    background-color: #fff;
+    border-radius: 10px;
+}
+button.timebtn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #10055A;
+    background-color: #F4F8FF;
+}
+button.timebtn:hover{
+    
+    color:  #F4F8FF;
+    background-color: #2650D8;
+}
+i.fas.fa-check-circle {
+    padding: 10px;
+    font-size: 25px;
+    color:green;
+    float:right;
+}
+i.fas.fa-stopwatch.stop1{
+    position: absolute;
+  top: calc(42% - 90px);
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  background-color:blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+i.fas.fa-map-marker-alt.location1{
+    position: absolute;
+  top: calc(96% - 35px);
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  background-color:blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #FFFFFF;
+
+}
+i.far.fa-credit-card.card1{
+    position: absolute;
+    top: calc(112% - 35px);
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    
+}
