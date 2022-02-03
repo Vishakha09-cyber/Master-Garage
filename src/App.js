@@ -11,9 +11,6 @@ import ServiceEstimates from './Components/PeriodicServices/ServiceEstimates';
 import BasicShowmore from './Components/PeriodicServices/BasicShowmore';
 import BookGarage from './Components/GarageBook/BookGarage';
 import LoginBook from './Components/GarageBook/LoginGarage';
-<<<<<<< HEAD
-import Aboutus from './Components/AboutUs';
-=======
 import Address from './Components/GarageBook/Adaddress';
 import PayBook from './Components/GarageBook/PaymentGarage';
 import PayNow from './Components/GarageBook/Paynow';
@@ -36,7 +33,6 @@ import ChaufferBooked from './Components/HomeChauffer/ChaufferBooked';
 import ChaufferAwait from './Components/HomeChauffer/ChaufferAwait';
 import ChaufferDeclined from './Components/HomeChauffer/ChaufferDeclined';
 import Tacking from './Components/AboutUs';
->>>>>>> 62f1579de5e2d98cb034d97192c62e53eb8a3939
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
 import JoiinUs from './Components/joinUs';
@@ -62,13 +58,10 @@ import Notification from './Components/Locaton/Notification';
 import Search from './Components/Locaton/Search';
 import Addvehical from './Components/Locaton/Addvihical';
 import Addinstruction from './Components/Locaton/Addinstruction';
-<<<<<<< HEAD
 import Bookingid from './Components/QrPages/Bookingid';
 
 
 
-=======
->>>>>>> 62f1579de5e2d98cb034d97192c62e53eb8a3939
 //import JobCar from './Components/JobCard/JobCar';
 import Jobcardprogress from './Components/JobCard/Jobcardprogress';
 import Nextcarprogress from './Components/JobCard/Nextcarprogress';
@@ -134,37 +127,10 @@ function App() {
               <Route path="/ServiceEstimates" component={ServiceEstimates}/>
               <Route path="/BookGarage" component={BookGarage}/>
               <Route path="/LoginGarage" component={LoginBook}/>
-<<<<<<< HEAD
               <Route path="/vehicalqr" component={Vehicalqr}/>
               <Route path="/Bookingid" component={Bookingid}/>
               <Route path="/Mgcoinredeem" component={Mgcoinredeem}/>
               <Route path="/Moreredeem" component={Moreredeem}/>
-=======
-              <Route path="/Adaddress" component={Address}/>
-              <Route path="/PaymentGarage" component={PayBook}/>
-              <Route path="/Paynow" component={PayNow}/>
-              <Route path="/ScheduleBook" component={ScheduleBook}/>
-              <Route path="/HomeChallan" component={HomeChallan}/>
-              <Route path="/DueChallan" component={DueChallan}/>
-              <Route path="/DueChallan1" component={DueChallan1}/>
-              <Route path="/HomeFasTag" component={HomeFasTag}/>
-              <Route path="/BuyFastag" component={BuyFastag}/>
-              <Route path="/FastagOrder" component={FastagSucessful}/>
-              <Route path="/RechargeFastag" component={RechargeFasTag}/>
-              <Route path="/RechargeFastag1" component={RechargeFastag1}/>
-              <Route path="/RechargeSucessful" component={RechargeSucessful}/>
-              <Route path="/ActivateFastag" component={ActFastag}/>
-              <Route path="/ActivateFastag1" component={ActivateFastag1}/>
-              <Route path="/ActivateFastag2" component={ActivateFastag2}/>
-              <Route path="/ChaufferBook" component={ChaufferBook}/>
-              <Route path="/ChaufferBooked" component={ChaufferBooked}/>
-              <Route path="/ChaufferAwait" component={ChaufferAwait}/>
-              <Route path="/ChaufferDeclined" component={ChaufferDeclined}/>
-              <Route path="/ChaufferHome" component={ChaufferHome}/>
-
-
-
->>>>>>> 62f1579de5e2d98cb034d97192c62e53eb8a3939
     </Switch>
   </BrowserRouter>
 

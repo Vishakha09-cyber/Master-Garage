@@ -7,10 +7,10 @@ import helpsupport from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/helpsupport
 import favourites from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/favourites.png';
 import referearn from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/referearn.png';
 import contact from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/contactus.png';
-const Login = () => {
+const Login = ({show}) => {
     return (
         <Container>
-            <Card className="card1 d-flex rounded">
+            <Card className="card1">
             <div className="login">
                <div className="">
                <div className="hello">

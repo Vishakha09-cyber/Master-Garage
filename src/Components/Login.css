@@ -27,11 +27,16 @@
     color:#2650D8;
 }
 .hello h5 {
+
     color:#00155A;
 }
 .card1{
+    float:right;
+    position:absolute;
     width:490px;
     height:768px;
+    transition:all 1s;
+
 }
 .addmorecard{
     font-size:29px;
