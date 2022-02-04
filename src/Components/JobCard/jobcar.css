@@ -218,15 +218,20 @@ input[name="fuel"] {
     width:300px;
 }
 .fullpage{
-    width:600px;
+    width:400px;
+    height:640px;
 }
 .accoutscan{
     display: flex;
     justify-content:space-between;
+    font-size:bolder
 }
 .qrscanheader{
     display: flex;
     margin-top: 30px;
+}
+.qrscanheader p{
+    font-weight:bolder;
 }
 .qrscanheader i{
     margin-top:5px;
@@ -251,16 +256,20 @@ input[name="fuel"] {
     justify-content:center;
     font-size: bolder;
 }
+.descriptionmaruti p{
+    margin-left:70px;
+    color:#fff
+}
 .backgroundAccount{
     display: flex;
     justify-content: center;
+    color:#fff
     
 }
-.backgroundAccount i{
-   font-size: 200px;
-   position: relative;
+.backgroundAccount img{
+    width:157.75px;
    padding:20px;
-   border:30px solid #fff;
+   border:20px solid #fff;
    border-radius: 20px;
 }
 .moreQrinfo{
@@ -268,10 +277,18 @@ input[name="fuel"] {
     justify-content:center;
     text-align: center;
     padding: 20px;
+   
+}
+.moreQrinfo p{
+    color:#fff;
 }
 .garagdes{
     display: flex;
     justify-content:center;
+    
+}
+.garagdes p{
+    color:#fff;
 }
 .garagdes img{
     width:30px

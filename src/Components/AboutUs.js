@@ -36,14 +36,16 @@ const AboutUs = () => {
                       <div>
                               <div className="payfooter">
                                   <div className="payAmount">
-                                   <p className="cardSize"><i class="far fa-credit-card"></i></p>
-                                   <div className="total">
-                                            <p>Total payment</p>
-                                            <h5>1673</h5>
-                                   </div>
+                                    <p className="cardSize">
+                                        <i class="far fa-credit-card"></i>
+                                    </p>
+                                    <div className="total">
+                                                <p>Total payment</p>
+                                                <h5>1673</h5>
+                                    </div>
                                   </div>
                                   <div >
-                                     <Link to="booking1"><Button className="totalbtn">Pay now</Button></Link> 
+                                     <Link to="/Chats"><Button className="totalbtn">Pay now</Button></Link> 
                                   </div>
                               </div>
                       </div>

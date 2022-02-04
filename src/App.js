@@ -11,6 +11,9 @@ import ServiceEstimates from './Components/PeriodicServices/ServiceEstimates';
 import BasicShowmore from './Components/PeriodicServices/BasicShowmore';
 import BookGarage from './Components/GarageBook/BookGarage';
 import LoginBook from './Components/GarageBook/LoginGarage';
+<<<<<<< HEAD
+import Aboutus from './Components/AboutUs';
+=======
 import Address from './Components/GarageBook/Adaddress';
 import PayBook from './Components/GarageBook/PaymentGarage';
 import PayNow from './Components/GarageBook/Paynow';
@@ -33,6 +36,7 @@ import ChaufferBooked from './Components/HomeChauffer/ChaufferBooked';
 import ChaufferAwait from './Components/HomeChauffer/ChaufferAwait';
 import ChaufferDeclined from './Components/HomeChauffer/ChaufferDeclined';
 import Tacking from './Components/AboutUs';
+>>>>>>> 62f1579de5e2d98cb034d97192c62e53eb8a3939
 import ContactUs from './Components/Contact';
 import Faq from './Components/Faq';
 import JoiinUs from './Components/joinUs';
@@ -58,6 +62,13 @@ import Notification from './Components/Locaton/Notification';
 import Search from './Components/Locaton/Search';
 import Addvehical from './Components/Locaton/Addvihical';
 import Addinstruction from './Components/Locaton/Addinstruction';
+<<<<<<< HEAD
+import Bookingid from './Components/QrPages/Bookingid';
+
+
+
+=======
+>>>>>>> 62f1579de5e2d98cb034d97192c62e53eb8a3939
 //import JobCar from './Components/JobCard/JobCar';
 import Jobcardprogress from './Components/JobCard/Jobcardprogress';
 import Nextcarprogress from './Components/JobCard/Nextcarprogress';
@@ -66,7 +77,9 @@ import Routes1 from './Components/dashborad/Routes';
 import Location from './Components/Locaton/Location';
 import Location1 from './Components/Locaton/Location1';
 import AddChauffer from './Components/Chauffer/AddChauffer';
-
+import Vehicalqr from './Components/QrPages/Vehicalqr';
+import Mgcoinredeem from './Components/QrPages/Mgcoinredeem';
+import Moreredeem from './Components/QrPages/Moreredeem';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Routes from './Components/dashborad/Routes';
 function App() {
@@ -80,7 +93,7 @@ function App() {
       <Route path='/' exact component={Home} />
       <Route path='/HomeMaintain' component={HomeMaintain}/>
       <Route path='/HomeMain1' component={HomeMain1}/>
-      <Route path= "/Tracking" component={Tacking}  />
+      {/* <Route path= "/Chats" component={Aboutus}  /> */}
       <Route path='/joinus' component={JoiinUs} />
       <Route path='/services' component={Services} />
       <Route path='/faq' component={Faq} />
@@ -121,6 +134,12 @@ function App() {
               <Route path="/ServiceEstimates" component={ServiceEstimates}/>
               <Route path="/BookGarage" component={BookGarage}/>
               <Route path="/LoginGarage" component={LoginBook}/>
+<<<<<<< HEAD
+              <Route path="/vehicalqr" component={Vehicalqr}/>
+              <Route path="/Bookingid" component={Bookingid}/>
+              <Route path="/Mgcoinredeem" component={Mgcoinredeem}/>
+              <Route path="/Moreredeem" component={Moreredeem}/>
+=======
               <Route path="/Adaddress" component={Address}/>
               <Route path="/PaymentGarage" component={PayBook}/>
               <Route path="/Paynow" component={PayNow}/>
@@ -145,6 +164,7 @@ function App() {
 
 
 
+>>>>>>> 62f1579de5e2d98cb034d97192c62e53eb8a3939
     </Switch>
   </BrowserRouter>
 

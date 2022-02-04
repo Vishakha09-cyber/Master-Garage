@@ -93,14 +93,49 @@
     border-radius:50px;
     padding:6px;
 }
+.inputtext{
+    width: 100%;
+    text-decoration: none;
+    height:50px;
+    background-color:#F8F9FA;
+    border:none;
+}
+.inputtext:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 2px #719ECE;
+}
 .sendmessage{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 3.375rem;
+    margin-top:130px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    
+
+}
+.sendmessage i{
+    background-color:#2650D8;
+    font-size:20px;
+    border-radius:50%;
+    width:40px;
+    color:#fff;
     padding:10px;
+    margin-left:620px;
+
 }
-.sendmessage img{
-  width:30px;
-  color:#fff;
-  background-color:#2650D8;
-  border-radius:50%;
+
+
+   
+ 
+ 
+ 
   
-}
+  
+
 
