@@ -47,7 +47,7 @@ const TopNavbar=()=> {
             <Link to="/notification" className="icons1"><i class="fas fa-bell"></i></Link>
           </li>
           <li>
-            <Link to="" className="icons12"><img src={avatar} style={{width:"30px"}} alt="error" onClick={showSidebar}/><i class="fas fa-chevron-down"></i></Link>
+            <Link to="/login" className="icons12"><img src={avatar} style={{width:"30px"}} alt="error"/><i class="fas fa-chevron-down"></i></Link>
           </li>
         </ul> 
        

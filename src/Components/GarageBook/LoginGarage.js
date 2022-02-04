@@ -1,11 +1,26 @@
 import React from 'react';
 import {Button,Row,Col, Container} from 'reactstrap';
-import { Link } from 'react-router-dom';
+import {
+  MdRemoveCircleOutline,
+  MdAddCircleOutline,
+  MdDelete,
+} from 'react-icons/md';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { Link,withRouter } from 'react-router-dom';
 import '../PeriodicServices/periodic.css';
 import './LoginBook.css';
 import FirstChoice from '../../Images/ImagesAll/drawable-xxxhdpi/FirstChoice.png';
+import * as CartAction from '../store/modules/cart/actions'
+import {formatPrice} from '../utill/format';
 
-function LoginBook(){
+function LoginBook({cart,total,removeFromCart,updateAmount}){
+  function increment(item){
+    updateAmount(item.id, item.amount +1);
+  }
+  function decrement(item){
+     updateAmount(item.id, item.amount -1)
+  }
     return <>
     <div className='container-fluid'>
         <Row>
@@ -156,7 +171,7 @@ const SubLast = () => (
     <><div class="boxlast">
         <Row className=' m-0 p-1' style={{backgroundColor:'#F8F9FA',borderRadius:'10px 10px 0px 0px '}}>
        
-        <Col sm={2} className='p-0'><img src={FirstChoice} style={{width:'77px',height:'77px',borderRadius:'10px'}}></img></Col>
+        <Col sm={2} className='p-0'><img src={FirstChoice} style={{width:'77px',height:'77px',borderRadius:'10px'}} alt="error"></img></Col>
                     <Col sm={10} className='py-2'>
                     <Row >
                         <Col sm={8}>
@@ -190,10 +205,21 @@ Kandivali East 400 101</p>
                 </Row>
                 <div className='scrollboxservices'>
                 <Row className='px-3 p-0'>
-                    <Col sm={6}><p className='poppins15R'>Basic Service</p>
+                    <Col sm={5}><p className='poppins15R'>Basic Service</p>
                     <p className='poppins10R'>Mobil SW40 Semi Synthetic</p>
                     </Col>
-                    <Col sm={6}>
+                    <Col sm={3}>
+                      <div>
+                  <button type="button">
+                    <MdRemoveCircleOutline size={20} color="#fff" />
+                  </button>
+                  <input type="number" readOnly  />
+                  <button type="button">
+                    <MdAddCircleOutline size={20} color="#fff" />
+                  </button>
+                </div>
+                    </Col>
+                    <Col sm={4}>
                         <Row>
                             <Col sm={9} className=' p-0 m-0' style={{textAlign:'right'}}>
                             <p style={{textDecoration:'line-through',marginBottom:'0px',fontSize:'14px',color:'grey'}}>&#8377;999</p>
