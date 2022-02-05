@@ -46,7 +46,8 @@ function PeriodicServiceAdded(){
 export default PeriodicServiceAdded;
 
 
-const SubLast = () => (
+const SubLast = () => {
+    return(
     <>
             
         
@@ -58,7 +59,7 @@ const SubLast = () => (
         <p className='poppins12light'>Petrol, VDI, 1299cc</p>
 
         </Col>
-        <Col sm={4}><img src={Venue} style={{height:'80px',float:'right',width:'120px'}}></img></Col>
+        <Col sm={4}><img src={Venue} style={{height:'80px',float:'right',width:'120px'}} alt="error"></img></Col>
         <p className='poppins12R'>
         Insurance valid till Feb 2018
         </p>    
@@ -88,6 +89,7 @@ const SubLast = () => (
 
 
     </>
-);
+    )
+    };
 
 

@@ -15,21 +15,9 @@ import check from '../../Images/check.png';
 import PS1 from '../../Images/ImagesAll/drawable-xxxhdpi/PS1.png';
 
 function MidBar(){
+    
     return<>
     <div className='px-5'>
-    <SearchBar></SearchBar>
-        <div className='py-4'>
-        <p  className=' submidtext'>PERIODIC SERVICE</p>
-        <h3 className='submidtext2'>Scheduled Service Packages</h3>
-        <SubMid></SubMid>
-        </div>
-    </div>
-    
-    
-    </>
-}
-
-const SearchBar = () => (
     <form action="/" method="get">
     <div className='searchbox'>
     <i class='fas fa-search'></i>
@@ -42,9 +30,9 @@ const SearchBar = () => (
     </div>
         
     </form>
-);
-const SubMid = () =>(
-    <>      
+        <div className='py-4'>
+        <p  className=' submidtext'>PERIODIC SERVICE</p>
+        <h3 className='submidtext2'>Scheduled Service Packages</h3>
         <div>
         <div className='SubmidBgBox p-2 my-2'>
             <Row>
@@ -79,7 +67,7 @@ const SubMid = () =>(
                 <p className='poppins15light py-2'><img src={systemUpdate} style={{width:'12px'}}></img> Every 10000 Kms or 6 months</p>
                 <p className='poppins15light'><img src={check} style={{width:'12px'}}></img> 15 Points Service</p>
                 <div style={{paddingTop:'25px'}}>
-                <Link to ="" style={{marginTop:'30px' ,fontSize:'12px'}}>Show more</Link>
+                <Link to ="/BasicShowmore" style={{marginTop:'30px' ,fontSize:'12px'}}>Show more</Link>
                 </div>
 
             </Col>
@@ -243,8 +231,11 @@ const SubMid = () =>(
                     
             </Row>
         </div>
-            
+        </div>
+    </div>
+    
+    
     </>
-);
+}
 export default MidBar;
 

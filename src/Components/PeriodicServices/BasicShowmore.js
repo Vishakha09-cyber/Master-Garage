@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {CardBody,Input,Label, ButtonGroup, Button,Row,Col, Container} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './periodic.css';
@@ -63,6 +63,7 @@ function SideBar(){
   
 }
 function MidBar(){
+    const[totalamount,setAmount]=useState("")
     return<>
     <div className='px-5'>
     <SearchBar></SearchBar>
