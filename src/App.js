@@ -60,6 +60,9 @@ import Search from './Components/Locaton/Search';
 import Addvehical from './Components/Locaton/Addvihical';
 import Addinstruction from './Components/Locaton/Addinstruction';
 import Bookingid from './Components/QrPages/Bookingid';
+
+
+
 //import JobCar from './Components/JobCard/JobCar';
 import Jobcardprogress from './Components/JobCard/Jobcardprogress';
 import Nextcarprogress from './Components/JobCard/Nextcarprogress';

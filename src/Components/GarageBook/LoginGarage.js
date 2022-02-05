@@ -1,12 +1,27 @@
 import React from 'react';
 import {Button,Row,Col, Container} from 'reactstrap';
-import { Link } from 'react-router-dom';
+import {
+  MdRemoveCircleOutline,
+  MdAddCircleOutline,
+  MdDelete,
+} from 'react-icons/md';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { Link,withRouter } from 'react-router-dom';
 import '../PeriodicServices/periodic.css';
 import './LoginBook.css';
-import FirstChoice from '../../Images/ImagesAll/drawable-xxxhdpi/FirstChoice.png';
 import CartBox from './CartBox';
+import FirstChoice from '../../Images/ImagesAll/drawable-xxxhdpi/FirstChoice.png';
+import * as CartAction from '../store/modules/cart/actions'
+import {formatPrice} from '../utill/format';
 
-function LoginBook(){
+function LoginBook({cart,total,removeFromCart,updateAmount}){
+  function increment(item){
+    updateAmount(item.id, item.amount +1);
+  }
+  function decrement(item){
+     updateAmount(item.id, item.amount -1)
+  }
     return <>
     <div className='container-fluid'>
         <Row>
@@ -152,7 +167,6 @@ const SubMid = () =>(
             </Row>
     </>
 );
-
 
 
 

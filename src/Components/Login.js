@@ -7,15 +7,15 @@ import helpsupport from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/helpsupport
 import favourites from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/favourites.png';
 import referearn from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/referearn.png';
 import contact from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/contactus.png';
-const Login = () => {
+const Login = ({show}) => {
     return (
         <Container>
-            <Card className="card1 d-flex rounded">
+            <Card className="card1">
             <div className="login">
                <div className="">
                <div className="hello">
                  <h3>Hello User,</h3>
-                 <p> <i class="far fa-times"></i></p>
+                 <Link> <i class="far fa-times" data-bs-dismiss="offcanvas"></i></Link>
                  </div>
                     <div className="headerProfile">
                        <div><img src={profile} alt="error"/></div>
@@ -50,7 +50,7 @@ const Login = () => {
                   </ul>
                </CardBody>
                <footer>
-                 <div>
+                 <div className="footerlog">
                    <ul className="social_icon">
                       <li><i class="fas fa-share-alt"></i><span>Share us</span></li>
                       <li><i class="fab fa-facebook-square"></i></li>

@@ -15,7 +15,7 @@ import usecar from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/usecar.png';
 import newev from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/newsev.png';
 import activatepng from '../Images/drawable-xxxhdpi/drawable-xxxhdpi/ActivateBG.png';
 import AboutLogo from '../Images/aboutlogo.PNG'
-import logo from "../Images/drawable-xxxhdpi/drawable-xxxhdpi/logo.png"
+import logo from "../Images/drawable-xxxhdpi/drawable-xxxhdpi/Group 25829.png"
 import Item from './Item';
 import './styles.css'
 const Home = () => {

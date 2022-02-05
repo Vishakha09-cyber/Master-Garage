@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './topnavbar.css'
 import {Container,Form,Button,Input,FormGroup,Label,Col,Row} from 'reactstrap';
 import avatar from "../../Images/avatar.png";
@@ -9,8 +9,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Login from '../Login';
+
 
 const TopNavbar=()=> {
+  const[sidebar,setSidebar]=useState(false);
+  const showSidebar=()=>setSidebar(!sidebar)
   return (
     <div className="App">
       <div className="header">
@@ -37,18 +41,20 @@ const TopNavbar=()=> {
             <Link to="#">FAQ's</Link>
           </li>
           <li>
-          <Link to="#" className="icons1"><i class="fas fa-search-plus"></i></Link>
+          <Link to="/search" className="icons1"><i class="fas fa-search-plus"></i></Link>
           </li>
           <li>
-            <Link to="#" className="icons1"><i class="fas fa-bell"></i></Link>
+            <Link to="/notification" className="icons1"><i class="fas fa-bell"></i></Link>
           </li>
           <li>
             <Link to="/login" className="icons12"><img src={avatar} style={{width:"30px"}} alt="error"/><i class="fas fa-chevron-down"></i></Link>
           </li>
         </ul> 
+       
            </div>
         </div>
       </div>
+      {/* <Login show={sidebar}/> */}
     </div>
   );
 }
