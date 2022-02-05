@@ -13,23 +13,11 @@ import CarFluid from '../../Images/CarFluid.png';
 import systemUpdate from '../../Images/systemUpdate.png';
 import check from '../../Images/check.png';
 import PS1 from '../../Images/ImagesAll/drawable-xxxhdpi/PS1.png';
+import ShowMore from './ServicesShowmore';
 
 function MidBar(){
     return<>
     <div className='px-5'>
-    <SearchBar></SearchBar>
-        <div className='py-4'>
-        <p  className=' submidtext'>PERIODIC SERVICE</p>
-        <h3 className='submidtext2'>Scheduled Service Packages</h3>
-        <SubMid></SubMid>
-        </div>
-    </div>
-    
-    
-    </>
-}
-
-const SearchBar = () => (
     <form action="/" method="get">
     <div className='searchbox'>
     <i class='fas fa-search'></i>
@@ -42,7 +30,17 @@ const SearchBar = () => (
     </div>
         
     </form>
-);
+        <div className='py-4'>
+        <p  className=' submidtext'>PERIODIC SERVICE</p>
+        <h3 className='submidtext2'>Scheduled Service Packages</h3>
+        <SubMid></SubMid>
+        </div>
+    </div>
+    
+    
+    </>
+}
+
 const SubMid = () =>(
     <>      
         <div>
@@ -53,7 +51,7 @@ const SubMid = () =>(
                 <p className='poppins15light py-2'><img src={systemUpdate} style={{width:'12px'}}></img> Every 5000 Kms or 3 months</p>
                 <p className='poppins15light'><img src={check} style={{width:'12px'}}></img> 9 Points Service</p>
                 <div style={{paddingTop:'25px'}}>
-                <Link to ="/BasicShowmore" style={{marginTop:'30px' ,fontSize:'12px'}}>Show more</Link>
+                <ShowMore></ShowMore>
                 </div>
                
 
