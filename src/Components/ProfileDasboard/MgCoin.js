@@ -36,7 +36,7 @@ const MgCoin = () => {
                              </div>
                          </div>
                      <div className="containlast">
-                         <div>
+                         <div className="coincolor">
                          <div className="tencoins">
                           <p>10 MG Coin = 1 Rupee</p>
                         </div>
