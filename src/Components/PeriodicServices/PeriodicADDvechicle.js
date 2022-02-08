@@ -48,7 +48,6 @@ function PeriodicADDvechicle(){
     
         return(
             <>
-                
             <div class="boxlast py-3" >
         <Row style={{justifyContent:'center',textAlign:'center'}}>
         <img src={Car} style={{float:'center',width:'270px',height:'187px',padding:'20px'}} alt="error"></img>

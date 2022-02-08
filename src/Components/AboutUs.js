@@ -34,7 +34,7 @@ const AboutUs = () => {
                       </div>
                       </CardBody>
                       <div>
-                              <div className="payfooter">
+                              <div className="payfooter1">
                                   <div className="payAmount">
                                     <p className="cardSize">
                                         <i class="far fa-credit-card"></i>
@@ -45,7 +45,7 @@ const AboutUs = () => {
                                     </div>
                                   </div>
                                   <div >
-                                     <Link to="/Chats"><Button className="totalbtn">Pay now</Button></Link> 
+                                     <Link to="/booking1"><Button className="totalbtn">Pay now</Button></Link> 
                                   </div>
                               </div>
                       </div>

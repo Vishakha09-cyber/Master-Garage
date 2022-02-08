@@ -10,12 +10,10 @@ import { bindActionCreators } from 'redux';
 import { Link,withRouter } from 'react-router-dom';
 import '../PeriodicServices/periodic.css';
 import './LoginBook.css';
+import CartBox from './CartBox';
 import FirstChoice from '../../Images/ImagesAll/drawable-xxxhdpi/FirstChoice.png';
-
 import * as CartAction from '../store/modules/cart/actions'
 import {formatPrice} from '../utill/format';
-
-import CartBox from './CartBox';
 
 function LoginBook(){
 

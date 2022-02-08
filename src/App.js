@@ -4,13 +4,14 @@ import { BrowserRouter, Route ,Switch} from 'react-router-dom'
 import Home from './Components/Home'
 import HomeMaintain from './Components/Home_Maintain/HomeMaintain';
 import HomeMain1 from './Components/Home_Maintain/HomeMain1';
-import Periodic from './Components/PeriodicServices/PeriodicService';
+import Periodic from './Components/PeriodicServices/PeriodicService'
 import PeriodicADDvechicle from './Components/PeriodicServices/PeriodicADDvechicle';
 import PeriodicServiceAdded from './Components/PeriodicServices/PeriodicServicesAdded';
 import ServiceEstimates from './Components/PeriodicServices/ServiceEstimates';
 import BasicShowmore from './Components/PeriodicServices/BasicShowmore';
 import BookGarage from './Components/GarageBook/BookGarage';
 import LoginBook from './Components/GarageBook/LoginGarage';
+import Aboutus from './Components/AboutUs';
 import Address from './Components/GarageBook/Adaddress';
 import PayBook from './Components/GarageBook/PaymentGarage';
 import PayNow from './Components/GarageBook/Paynow';
@@ -59,7 +60,7 @@ import Search from './Components/Locaton/Search';
 import Addvehical from './Components/Locaton/Addvihical';
 import Addinstruction from './Components/Locaton/Addinstruction';
 import Bookingid from './Components/QrPages/Bookingid';
-
+//import Sidebar from './Components/dashborad/Sidebar'
 
 
 //import JobCar from './Components/JobCard/JobCar';
@@ -86,13 +87,13 @@ function App() {
       <Route path='/' exact component={Home} />
       <Route path='/HomeMaintain' component={HomeMaintain}/>
       <Route path='/HomeMain1' component={HomeMain1}/>
-      {/* <Route path= "/Chats" component={Aboutus}  /> */}
+      <Route path= "/Confirmbook" component={Aboutus}  />
       <Route path='/joinus' component={JoiinUs} />
       <Route path='/services' component={Services} />
       <Route path='/faq' component={Faq} />
       <Route path='/contact' component={ContactUs} />
       <Route path='/booking1' component={Booking1}/>
-      <Route path='/confirmbook' component={ConfirmBooking}/>
+      <Route path='/confirmbooking' component={ConfirmBooking}/>
       <Route path='/modifyreview' component={modifyreview}/> 
        <Route path="/Vehicaldelivery" component={Vehicaldelivery}/>
        <Route path="/login" component={Login}/>
@@ -108,7 +109,7 @@ function App() {
              <Route path="/payment" component={Payment}/>
              <Route path="/thanking" component={Thanking}/>
               <Route path="/Chat" component={Chat}/>
-              {/* <Route path="/Jobcar" component={JobCar}/> */}
+              {/* <Route path="/Sidebar" component={Sidebar}/> */}
               <Route path="/jobprogress" component={Jobcardprogress}/>
               <Route path="/Nextcarprogress" component={Nextcarprogress}/>
               <Route path="/Accountscan" component={Accountscan}/>
@@ -131,6 +132,30 @@ function App() {
               <Route path="/Bookingid" component={Bookingid}/>
               <Route path="/Mgcoinredeem" component={Mgcoinredeem}/>
               <Route path="/Moreredeem" component={Moreredeem}/>
+              <Route path="/Adaddress" component={Address}/>
+              <Route path="/PaymentGarage" component={PayBook}/>
+              <Route path="/Paynow" component={PayNow}/>
+              <Route path="/ScheduleBook" component={ScheduleBook}/>
+              <Route path="/HomeChallan" component={HomeChallan}/>
+              <Route path="/DueChallan" component={DueChallan}/>
+              <Route path="/DueChallan1" component={DueChallan1}/>
+              <Route path="/HomeFasTag" component={HomeFasTag}/>
+              <Route path="/BuyFastag" component={BuyFastag}/>
+              <Route path="/FastagOrder" component={FastagSucessful}/>
+              <Route path="/RechargeFastag" component={RechargeFasTag}/>
+              <Route path="/RechargeFastag1" component={RechargeFastag1}/>
+              <Route path="/RechargeSucessful" component={RechargeSucessful}/>
+              <Route path="/ActivateFastag" component={ActFastag}/>
+              <Route path="/ActivateFastag1" component={ActivateFastag1}/>
+              <Route path="/ActivateFastag2" component={ActivateFastag2}/>
+              <Route path="/ChaufferBook" component={ChaufferBook}/>
+              <Route path="/ChaufferBooked" component={ChaufferBooked}/>
+              <Route path="/ChaufferAwait" component={ChaufferAwait}/>
+              <Route path="/ChaufferDeclined" component={ChaufferDeclined}/>
+              <Route path="/ChaufferHome" component={ChaufferHome}/>
+
+
+
     </Switch>
   </BrowserRouter>
 

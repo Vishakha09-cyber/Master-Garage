@@ -6,7 +6,6 @@
     padding: 20px;
 
     font-size: 0.8rem;
-   
 }
 .cardtitle {
     color: #999999;
@@ -29,7 +28,6 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #999999;
-
 }
 .card-head {
     display: flex;
@@ -42,11 +40,12 @@
 .social {
     display: flex;
     padding-top: 20px;
+    color: #fff !important;
 }
 .socila1 {
     font-size: 30px;
     margin-left: 100px;
-    color: #fff;
+    color: #fff !important;
     background-color: #53bd8c;
     border-radius: 50%;
     padding: 5px 15px 5px;
@@ -95,7 +94,7 @@
 }
 .comment {
     font-size: 30px;
-    color: #fff;
+    color: #fff !important;
     background-color: #53bd8c;
     border-radius: 50%;
     padding: 10px 10px 8px;
@@ -132,7 +131,7 @@ ul .listitem::before {
 }
 .Qrcode i {
     font-size: 220px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 .booking {
     height: 500px;
@@ -156,9 +155,9 @@ ul .listitem::before {
 .innercard {
     padding: 10px;
 }
-.groupbtn{
+.groupbtn {
     margin-right: 90px;
-    margin-top:39px;
+    margin-top: 39px;
 }
 .btncancle {
     border-radius: 20px;
@@ -180,7 +179,7 @@ ul .listitem::before {
     margin-left: 40px;
     text-decoration: none;
 }
-.payfooter {
+.payfooter1 {
     display: flex;
     justify-content: space-evenly;
     background-color: #2650d8;
@@ -194,7 +193,8 @@ ul .listitem::before {
 .cardSize i {
     font-size: 30px;
     margin-right: 10px;
-    margin-top: 160px !important;
+    margin-top: 20px;
+    color: #fff !important;
 }
 .total {
     margin-top: 20px;

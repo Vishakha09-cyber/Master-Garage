@@ -9,7 +9,7 @@ const JobCar = () => {
     <div> 
         <div className="infobooking">
         <div className="bookingstatus"><i class="fas fa-arrow-left"></i><h4>Booking ID: MG1234567890 </h4></div>
-          <div className="bookingstatus"><small>Status</small><p>Work in Progress</p></div>
+          <Link to=""><div className="bookingstatus"><small>Status</small><p>Work in Progress</p></div></Link>
         </div>
         <Card className="d-flex rounded shadow">
             <div className="jobcarHeader">

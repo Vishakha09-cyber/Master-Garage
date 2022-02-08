@@ -58,7 +58,7 @@ const Booking1 = () => {
                                    </div>
                                   </div>
                                   <div >
-                                     <Link to="/confirmbook"> <Button className="totalbtn1">Pay now</Button></Link>
+                                     <Link to="/confirmbooking"> <Button className="totalbtn1">Pay now</Button></Link>
                                   </div>
                               </div>
                       
